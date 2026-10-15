@@ -1,0 +1,32 @@
+[
+  {
+    "path": "TRACE_SUMMARY.json",
+    "bytes": 1322,
+    "sha256": "7e59d0b3dfc959c7e9552a8905a33b53d7bed1239db3ee0903e4a2f0a621c17f"
+  },
+  {
+    "path": "export.log",
+    "bytes": 8126,
+    "sha256": "3826e905f0d21376d9c680b9284b0c9110f6acd85f778c47c3d124dd3147866e"
+  },
+  {
+    "path": "stderr.log",
+    "bytes": 98,
+    "sha256": "b4f8928e0826875913370fd0444bc4a952eb58f778dfb4ff9c434643367f2d3b"
+  },
+  {
+    "path": "stdout.log",
+    "bytes": 13466,
+    "sha256": "20443233e2b2a0c73caab33a033e654ea7b2359d5ba5c91eb237c626db9e68c8"
+  },
+  {
+    "path": "trace.nsys-rep",
+    "bytes": 285201,
+    "sha256": "471d617abc6317b694869387eaf841aab3fab19d2fc721187286b903c7cd2912"
+  },
+  {
+    "path": "trace.sqlite",
+    "bytes": 712704,
+    "sha256": "bbc1b8c756eb1f197b241c575c58c06eacb1ca8cd2d0a9cb777512b1d430ae75"
+  }
+]

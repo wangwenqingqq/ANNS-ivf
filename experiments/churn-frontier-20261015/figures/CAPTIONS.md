@@ -1,0 +1,5 @@
+# Diagnostic figures
+
+`quality_memory`: random churn, batch 1024, N=8192, 32 queries; points scan 1/4/32 fixed partitions. Y excludes routing/host work. Each point is the median of four process medians; error bars are their min–max, not a confidence interval. All variants have the same 16384-row payload budget; indirect adds a 64-KiB row directory. When recall is constant the x-axis shows the actual probe sweep and states that constant, rather than implying an informative quality frontier. Layout bytes exclude shared staging, scratch and driver allocations. Synthetic partitions are not trained IVF.
+
+`update_query_tradeoff`: nprobe=4, same process-level estimator/ranges. Filled markers: batch 128; hollow: batch 1024. Scatter axes zoom to the observed range; no bar areas or truncated-bar encoding are used. Only relocate/insert and scan/top-k are timed, not complete dynamic API latency. Equal-quality points are linked to the summary, not a concurrent service or sustainable churn frontier. The task-owned source plus CPU oracle, not original SIVF, supplies these observations.

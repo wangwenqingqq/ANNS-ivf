@@ -1,0 +1,326 @@
+[
+  {
+    "case": "gate_memcheck_128",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 1.073851911118254
+  },
+  {
+    "case": "gate_memcheck_768",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 2.1655708588659763
+  },
+  {
+    "case": "gate_synccheck_128",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 1.0754992691799998
+  },
+  {
+    "case": "gate_synccheck_768",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 1.0725754601880908
+  },
+  {
+    "case": "p0_d128_b1024_fifo",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 8.65351374913007
+  },
+  {
+    "case": "p0_d128_b1024_hot",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 9.687546649947762
+  },
+  {
+    "case": "p0_d128_b1024_random",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 9.702021264005452
+  },
+  {
+    "case": "p0_d128_b128_fifo",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 8.622215466108173
+  },
+  {
+    "case": "p0_d128_b128_hot",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 9.696203925879672
+  },
+  {
+    "case": "p0_d128_b128_random",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 8.64824031596072
+  },
+  {
+    "case": "p0_d768_b1024_fifo",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 11.840339330025017
+  },
+  {
+    "case": "p0_d768_b1024_hot",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 11.84554766304791
+  },
+  {
+    "case": "p0_d768_b1024_random",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 12.921150068985298
+  },
+  {
+    "case": "p0_d768_b128_fifo",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 11.861741432920098
+  },
+  {
+    "case": "p0_d768_b128_hot",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 11.854992115870118
+  },
+  {
+    "case": "p0_d768_b128_random",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 11.887816356029361
+  },
+  {
+    "case": "p1_d128_b1024_fifo",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 8.631034492980689
+  },
+  {
+    "case": "p1_d128_b1024_hot",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 9.663016916951165
+  },
+  {
+    "case": "p1_d128_b1024_random",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 9.729236537124962
+  },
+  {
+    "case": "p1_d128_b128_fifo",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 8.621358241187409
+  },
+  {
+    "case": "p1_d128_b128_hot",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 8.641042890027165
+  },
+  {
+    "case": "p1_d128_b128_random",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 8.6182432170026
+  },
+  {
+    "case": "p1_d768_b1024_fifo",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 11.86484343605116
+  },
+  {
+    "case": "p1_d768_b1024_hot",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 11.821114961989224
+  },
+  {
+    "case": "p1_d768_b1024_random",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 12.91905008815229
+  },
+  {
+    "case": "p1_d768_b128_fifo",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 10.73638529703021
+  },
+  {
+    "case": "p1_d768_b128_hot",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 10.827168793184683
+  },
+  {
+    "case": "p1_d768_b128_random",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 11.83570992690511
+  },
+  {
+    "case": "p2_d128_b1024_fifo",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 8.62600503815338
+  },
+  {
+    "case": "p2_d128_b1024_hot",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 9.669786399928853
+  },
+  {
+    "case": "p2_d128_b1024_random",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 9.692828767932951
+  },
+  {
+    "case": "p2_d128_b128_fifo",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 8.58441105298698
+  },
+  {
+    "case": "p2_d128_b128_hot",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 8.616317894076928
+  },
+  {
+    "case": "p2_d128_b128_random",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 8.58107998012565
+  },
+  {
+    "case": "p2_d768_b1024_fifo",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 11.84457949991338
+  },
+  {
+    "case": "p2_d768_b1024_hot",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 11.890066331019625
+  },
+  {
+    "case": "p2_d768_b1024_random",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 12.926280315034091
+  },
+  {
+    "case": "p2_d768_b128_fifo",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 10.767222107155249
+  },
+  {
+    "case": "p2_d768_b128_hot",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 11.83023279812187
+  },
+  {
+    "case": "p2_d768_b128_random",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 11.857892682077363
+  },
+  {
+    "case": "p3_d128_b1024_fifo",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 8.630053685978055
+  },
+  {
+    "case": "p3_d128_b1024_hot",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 9.66948799812235
+  },
+  {
+    "case": "p3_d128_b1024_random",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 9.701029134914279
+  },
+  {
+    "case": "p3_d128_b128_fifo",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 8.606052743969485
+  },
+  {
+    "case": "p3_d128_b128_hot",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 9.664242697879672
+  },
+  {
+    "case": "p3_d128_b128_random",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 8.626824422040954
+  },
+  {
+    "case": "p3_d768_b1024_fifo",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 10.88684673490934
+  },
+  {
+    "case": "p3_d768_b1024_hot",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 12.924011891009286
+  },
+  {
+    "case": "p3_d768_b1024_random",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 12.99092916585505
+  },
+  {
+    "case": "p3_d768_b128_fifo",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 10.780795637052506
+  },
+  {
+    "case": "p3_d768_b128_hot",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 10.879719072021544
+  },
+  {
+    "case": "p3_d768_b128_random",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 11.93104204395786
+  },
+  {
+    "case": "stress_fifo",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 10.783208285924047
+  },
+  {
+    "case": "stress_random",
+    "exit": 0,
+    "contaminated": false,
+    "elapsed_wall_seconds_not_benchmark_latency": 14.007901381002739
+  }
+]

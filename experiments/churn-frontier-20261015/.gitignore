@@ -1,0 +1,5 @@
+/build/
+/runs/
+__pycache__/
+._*
+/full_runner*.log

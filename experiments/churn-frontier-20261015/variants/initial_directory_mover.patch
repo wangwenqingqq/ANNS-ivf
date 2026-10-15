@@ -1,0 +1,22 @@
+--- a/probe.cu
++++ b/probe.cu
+@@ -45,10 +45,6 @@
+         if(threadIdx.x==0) ids[dst[i]]=ids[src[i]];
+     }
+ }
+-__global__ void move_directory(int* map,const int* dst,const int* src,int count) {
+-    int i=blockIdx.x*blockDim.x+threadIdx.x;
+-    if(i<count) map[dst[i]]=map[src[i]];
+-}
+ template<bool INDIRECT> __global__ void insert_rows(float* data,Id* ids,int* map,
+         const int* dst,const int* physical,const int* input_index,
+         const float* incoming,const Id* newids,int count,int dim) {
+@@ -200,7 +196,7 @@
+         std::vector<int> counts; for(auto& list:f.host) counts.push_back(int(list.size())); f.counts.put(counts);
+         ck(cudaEventRecord(begin));
+         if(p.moves()) {
+-            if(f.kind=='I') move_directory<<<(p.moves()+255)/256,256>>>(f.map.p,dst.p,src.p,p.moves());
++            if(f.kind=='I') move_rows<true><<<p.moves(),128>>>(f.data.p,f.ids.p,f.map.p,dst.p,src.p,p.moves(),s.dim);
+             else move_rows<false><<<p.moves(),128>>>(f.data.p,f.ids.p,f.map.p,dst.p,src.p,p.moves(),s.dim);
+         }
+         int n=int(p.insert.size());

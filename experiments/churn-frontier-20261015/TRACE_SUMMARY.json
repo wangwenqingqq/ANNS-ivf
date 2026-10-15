@@ -1,0 +1,51 @@
+{
+  "scope": "diagnostic-only CUPTI; profiler changes scheduling; no speedup denominator",
+  "queries": 32,
+  "dim": 768,
+  "batch": 1024,
+  "workload": "random",
+  "groups": {
+    "direct_P_and_F_nprobe1": {
+      "count": 60,
+      "scan_us": 66.976,
+      "merge_us": 3.808,
+      "interkernel_gap_us": 1.664,
+      "same_trace_device_span_us": 72.288
+    },
+    "direct_P_and_F_nprobe32": {
+      "count": 60,
+      "scan_us": 175.103,
+      "merge_us": 46.624,
+      "interkernel_gap_us": 1.792,
+      "same_trace_device_span_us": 223.615
+    },
+    "direct_P_and_F_nprobe4": {
+      "count": 108,
+      "scan_us": 72.27199999999999,
+      "merge_us": 7.776,
+      "interkernel_gap_us": 1.6475,
+      "same_trace_device_span_us": 82.1755
+    },
+    "indirect_nprobe1": {
+      "count": 30,
+      "scan_us": 71.1995,
+      "merge_us": 3.808,
+      "interkernel_gap_us": 1.744,
+      "same_trace_device_span_us": 76.5275
+    },
+    "indirect_nprobe32": {
+      "count": 30,
+      "scan_us": 184.51100000000002,
+      "merge_us": 46.6075,
+      "interkernel_gap_us": 1.456,
+      "same_trace_device_span_us": 232.751
+    },
+    "indirect_nprobe4": {
+      "count": 54,
+      "scan_us": 76.2235,
+      "merge_us": 7.776,
+      "interkernel_gap_us": 1.968,
+      "same_trace_device_span_us": 85.98349999999999
+    }
+  }
+}
