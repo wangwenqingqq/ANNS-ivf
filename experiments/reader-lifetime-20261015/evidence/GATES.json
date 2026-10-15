@@ -1,0 +1,116 @@
+[
+  {
+    "run": "pilot_01",
+    "case": "gate_initcheck_128",
+    "returncode": 0,
+    "contaminated_or_timeout": false,
+    "eligible_process": true,
+    "process_oracle_message_present": true,
+    "zero_error_summaries": [
+      "0"
+    ],
+    "race_report_present": false
+  },
+  {
+    "run": "pilot_01",
+    "case": "gate_initcheck_768",
+    "returncode": 0,
+    "contaminated_or_timeout": false,
+    "eligible_process": true,
+    "process_oracle_message_present": true,
+    "zero_error_summaries": [
+      "0"
+    ],
+    "race_report_present": false
+  },
+  {
+    "run": "pilot_01",
+    "case": "gate_memcheck_128",
+    "returncode": 0,
+    "contaminated_or_timeout": false,
+    "eligible_process": true,
+    "process_oracle_message_present": true,
+    "zero_error_summaries": [
+      "0"
+    ],
+    "race_report_present": false
+  },
+  {
+    "run": "pilot_01",
+    "case": "gate_memcheck_768",
+    "returncode": 0,
+    "contaminated_or_timeout": false,
+    "eligible_process": true,
+    "process_oracle_message_present": true,
+    "zero_error_summaries": [
+      "0"
+    ],
+    "race_report_present": false
+  },
+  {
+    "run": "pilot_01",
+    "case": "gate_synccheck_128",
+    "returncode": 0,
+    "contaminated_or_timeout": false,
+    "eligible_process": true,
+    "process_oracle_message_present": true,
+    "zero_error_summaries": [
+      "0"
+    ],
+    "race_report_present": false
+  },
+  {
+    "run": "pilot_01",
+    "case": "gate_synccheck_768",
+    "returncode": 0,
+    "contaminated_or_timeout": false,
+    "eligible_process": true,
+    "process_oracle_message_present": true,
+    "zero_error_summaries": [
+      "0"
+    ],
+    "race_report_present": false
+  },
+  {
+    "run": "pilot_01",
+    "case": "smoke",
+    "returncode": 0,
+    "contaminated_or_timeout": false,
+    "eligible_process": true,
+    "process_oracle_message_present": true,
+    "zero_error_summaries": [],
+    "race_report_present": false
+  },
+  {
+    "run": "race_01",
+    "case": "gate_racecheck_128",
+    "returncode": -15,
+    "contaminated_or_timeout": true,
+    "eligible_process": false,
+    "process_oracle_message_present": true,
+    "zero_error_summaries": [],
+    "race_report_present": true
+  },
+  {
+    "run": "pilot_02",
+    "case": "gate_memcheck_128",
+    "returncode": 0,
+    "contaminated_or_timeout": true,
+    "eligible_process": false,
+    "process_oracle_message_present": true,
+    "zero_error_summaries": [
+      "0"
+    ],
+    "race_report_present": false
+  },
+  {
+    "run": "pilot_02",
+    "case": "smoke",
+    "returncode": 0,
+    "contaminated_or_timeout": false,
+    "eligible_process": true,
+    "process_oracle_message_present": true,
+    "zero_error_summaries": [],
+    "race_report_present": false
+  }
+]

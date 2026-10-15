@@ -1,0 +1,17 @@
+{
+  "state": "initial admission only; racecheck/full matrix unvalidated",
+  "complete": true,
+  "mode": "pilot",
+  "source_sha256": "336f6075a14498d53cac511e74d80c402b757a1c05c86f6458e6a7e4266366b1",
+  "binary_sha256": "0708b487012bcf45f8a750aa3c4f1bfaba3c442df77efd297b3842177b67eaec",
+  "native_header_sha256": "b6e4498ca5dd3984968867b371a99963fc6b0e14051d0415686fa5e428151caf",
+  "passed_cases": [
+    "smoke",
+    "gate_memcheck_128",
+    "gate_synccheck_128",
+    "gate_initcheck_128",
+    "gate_memcheck_768",
+    "gate_synccheck_768",
+    "gate_initcheck_768"
+  ]
+}

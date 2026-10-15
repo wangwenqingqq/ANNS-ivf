@@ -1,0 +1,26 @@
+--- a/probe.cu
++++ b/probe.cu
+@@ -13,12 +13,6 @@
+ #include <gpu_btree.h>
+ #include <memory_reclaimer.hpp>
+ namespace cg = cooperative_groups;
+-struct BlockGroup {
+-    __device__ unsigned thread_rank() const { return threadIdx.x; }
+-    __device__ unsigned size() const { return blockDim.x; }
+-    __device__ void sync() const { __syncthreads(); }
+-    __device__ bool all(bool value) const { return __syncthreads_and(value); }
+-};
+ constexpr int READERS=8, ROOTS=16, THREADS=128;
+ using Reclaimer=smr::DEBR_device<384>;
+ struct Step { uint32_t ok,used,epoch,pinned,generation,root,slot; uint64_t ns; };
+@@ -55,7 +49,9 @@
+     }
+ }
+ __global__ void run(State s,smr::DEBR_host host,int late,int pre_us,int hold_us) {
+-    BlockGroup tile;
++    __shared__ cg::block_tile_memory<THREADS> tile_memory;
++    auto block=cg::this_thread_block(tile_memory);
++    auto tile=cg::tiled_partition<THREADS>(block);
+     __shared__ uint32_t bags[Reclaimer::compute_shmem_requirements()];
+     auto rec=Reclaimer{host,bags,READERS+1,tile};
+     Allocator allocator{s};int ctx=0;

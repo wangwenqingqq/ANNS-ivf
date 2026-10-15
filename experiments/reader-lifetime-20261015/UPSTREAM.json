@@ -1,0 +1,24 @@
+{
+  "repository": "https://github.com/owensgroup/MVGpuBTree",
+  "commit": "f755006d78ccca565f97cda053727d4d48b82d46",
+  "license": "Apache-2.0",
+  "headers": {
+    "include/btree_kernels.hpp": "45de9b0b91badc0af152910530785f7651a49c3f4a3591195f6ed43c7bc4bbcf",
+    "include/cmd.hpp": "2e5e716a3c0479965e3f1da2cfbe5085b71cf5460990736aaf6fc834c965e016",
+    "include/device_bump_allocator.hpp": "4e49689bd1b2c29aeecfe2527bb94d3d1179021ee6431728ebaa3a7faf32e51e",
+    "include/gpu_blink_tree.hpp": "041783550c9001422525d803ffb96051686e9f63ac2d18da4656c9f2fab12ddb",
+    "include/gpu_timer.hpp": "bc4dc18b9403d2b78c651fff10f49314844f88b6af139166a28cd5762027242f",
+    "include/gpu_versioned_blink_tree.hpp": "8e5436cb9e40a98a9372135487e60cffe6b507a2b301103339cdc8f5d0eb09a6",
+    "include/host_allocators.hpp": "c9a3ae3e21ba466bf65e03eeedb38e410fe3d625d9df1b2832f70fb759845d70",
+    "include/macros.hpp": "f66b1979e786cc0e78ff47681e97da705c85c82f2b36abe642675b1b32ee08b3",
+    "include/memory_reclaimer.hpp": "b6e4498ca5dd3984968867b371a99963fc6b0e14051d0415686fa5e428151caf",
+    "include/memory_utils.hpp": "f427319052c400505078cbb24aa4e1a603c1ba9473e6dd37e9121b6996d0a3b4",
+    "include/node.hpp": "51e276e3dc996ddfa8283af7d2a91b728fc3f64605bbb51d72a1936e2296eb6f",
+    "include/pair_type.hpp": "14d1e7016f5ac87413e6615444de1c507a850a7d14ab16a8a003081e2a2f8462",
+    "include/rkg.hpp": "210ce397b5ba96b25b9d199341d75c6984b53f8a3538e972fa82c4156179f1b7",
+    "include/slab_alloc.hpp": "b47bd76d324c96585a97aec2fc14e45f380360b7352d7938e05bfc03040092e6",
+    "include/utils.hpp": "0a7628861e5761f4021f078fe07d25523ceb10eda7b617235d274a01f1fac884",
+    "include/validation.hpp": "44ff5a836c847bd82dc4010bf3c204e96aa7cff906b0045cb888dc1612dfce4f",
+    "include/versioned_node.hpp": "8306ae237c453bbf0acbac96b80ee8c4912f3f1712dbf5ee819b1810ba6e9c34"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "kind": "CPU discrete-event model, not measured GPU",
+  "upstream_commit": "f755006d78ccca565f97cda053727d4d48b82d46",
+  "schedule": "512 writer attempts wholly inside pre/inside hold; no time conversion",
+  "cases": [
+    {
+      "slots": 64,
+      "scope": "E",
+      "scenario": "pre",
+      "attempts": 512,
+      "ack": 48,
+      "failed": 464,
+      "first_fail": 48,
+      "peak_slots": 64,
+      "needed_at_end_of_hold": 24,
+      "final_live": 16
+    },
+    {
+      "slots": 64,
+      "scope": "L",
+      "scenario": "pre",
+      "attempts": 512,
+      "ack": 512,
+      "failed": 0,
+      "first_fail": null,
+      "peak_slots": 19,
+      "needed_at_end_of_hold": 16,
+      "final_live": 16
+    },
+    {
+      "slots": 64,
+      "scope": "E",
+      "scenario": "inside",
+      "attempts": 512,
+      "ack": 48,
+      "failed": 464,
+      "first_fail": 48,
+      "peak_slots": 64,
+      "needed_at_end_of_hold": 24,
+      "final_live": 16
+    },
+    {
+      "slots": 64,
+      "scope": "L",
+      "scenario": "inside",
+      "attempts": 512,
+      "ack": 48,
+      "failed": 464,
+      "first_fail": 48,
+      "peak_slots": 64,
+      "needed_at_end_of_hold": 24,
+      "final_live": 16
+    },
+    {
+      "slots": 256,
+      "scope": "E",
+      "scenario": "pre",
+      "attempts": 512,
+      "ack": 240,
+      "failed": 272,
+      "first_fail": 240,
+      "peak_slots": 256,
+      "needed_at_end_of_hold": 24,
+      "final_live": 16
+    },
+    {
+      "slots": 256,
+      "scope": "L",
+      "scenario": "pre",
+      "attempts": 512,
+      "ack": 512,
+      "failed": 0,
+      "first_fail": null,
+      "peak_slots": 19,
+      "needed_at_end_of_hold": 16,
+      "final_live": 16
+    },
+    {
+      "slots": 256,
+      "scope": "E",
+      "scenario": "inside",
+      "attempts": 512,
+      "ack": 240,
+      "failed": 272,
+      "first_fail": 240,
+      "peak_slots": 256,
+      "needed_at_end_of_hold": 24,
+      "final_live": 16
+    },
+    {
+      "slots": 256,
+      "scope": "L",
+      "scenario": "inside",
+      "attempts": 512,
+      "ack": 240,
+      "failed": 272,
+      "first_fail": 240,
+      "peak_slots": 256,
+      "needed_at_end_of_hold": 24,
+      "final_live": 16
+    }
+  ]
+}
