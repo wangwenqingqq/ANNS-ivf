@@ -1,0 +1,29 @@
+{
+  "mirror_revision": "0bc1ed67fc2626bc6f110c8794a70572681b7395",
+  "base_url": "https://huggingface.co/datasets/hhy3/ann-datasets/resolve/0bc1ed67fc2626bc6f110c8794a70572681b7395/sift1M/sift_base.fvecs",
+  "query_url": "https://huggingface.co/datasets/hhy3/ann-datasets/resolve/0bc1ed67fc2626bc6f110c8794a70572681b7395/sift1M/sift_query.fvecs",
+  "official_archive_equivalence_verified": false,
+  "prefixes": [
+    {
+      "file": "sift_base.fvecs",
+      "offset_rows": 0,
+      "rows": 262144,
+      "prefix_bytes": 135266304,
+      "prefix_sha256": "6085c9d3f1530b5c7a31afe7c1421f85b96c91147a8a2e2a275462f93470e050"
+    },
+    {
+      "file": "sift_base.fvecs",
+      "offset_rows": 262144,
+      "rows": 8192,
+      "prefix_bytes": 4227072,
+      "prefix_sha256": "297c694c576e386acb5a84b50d0ac61c95f47198e405b5866bebea56b8f10ab6"
+    },
+    {
+      "file": "sift_query.fvecs",
+      "offset_rows": 0,
+      "rows": 1000,
+      "prefix_bytes": 516000,
+      "prefix_sha256": "8667c6608803790773cbb056c036811b7d57d134238fd95ea3721965737ad54f"
+    }
+  ]
+}

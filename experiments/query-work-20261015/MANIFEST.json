@@ -1,0 +1,92 @@
+{
+  "current": [
+    {
+      "path": ".gitignore",
+      "bytes": 20,
+      "sha256": "637400650411cd4eaf40681601af96eed5b72b298b06e54ed82a3d143938956a"
+    },
+    {
+      "path": "CONTRACT.md",
+      "bytes": 5565,
+      "sha256": "f3d6e17c24330ba8ef48efe59625c378e07f24f6a86f75bd1da8b7012b66efc9"
+    },
+    {
+      "path": "AMENDMENT.md",
+      "bytes": 1840,
+      "sha256": "d50b08ee7784b7c6d3b7556635e8fb604167b4cb924669d36737d98206695695"
+    },
+    {
+      "path": "PROBE_CALIBRATION.md",
+      "bytes": 1577,
+      "sha256": "04e93fe51d5d18795d272238b13d234eaeef4adfa6559c702eea9897090af96a"
+    },
+    {
+      "path": "check.py",
+      "bytes": 19425,
+      "sha256": "491b25bddd34fd3e7451a03c0314ffbe1e7da2eaeaf7eb8e7f66cbd45aa6be8a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 10162,
+      "sha256": "4463f43685baec4c678e6a113845cbe991a2b13ae9a6540ec79d84455c1b7321"
+    },
+    {
+      "path": "INPUTS.json",
+      "bytes": 1060,
+      "sha256": "fb6f6e012f301ee48591d73f0c52e0bb88118694a87bd35a8371756765562ce2"
+    },
+    {
+      "path": "RESULTS.json",
+      "bytes": 1320938,
+      "sha256": "8d33452d333935c7e811e13e51e19e58fc37ef95d5b7aacb64d935e9b5ab0ade"
+    },
+    {
+      "path": "QUERY.jsonl",
+      "bytes": 4965693,
+      "sha256": "fae6e73c4468d4cbe5252c0ded7082b0baf348d819e2ef6e5150f5aec8a7b1a7"
+    }
+  ],
+  "historical_preserved_off_git": [
+    {
+      "path": "runs/primary_01/check.py",
+      "bytes": 16892,
+      "sha256": "404b96a23b705b4c1774c45e19501cf3f015b7fc620946902ca4792c6df8b0c5"
+    },
+    {
+      "path": "runs/primary_01/QUERY.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/primary_02/check.py",
+      "bytes": 17501,
+      "sha256": "179a4ce19f2a35c5ceb3a52bd353fc94a2627064753ebb8ecdf9d02df892da90"
+    },
+    {
+      "path": "runs/primary_02/RESULTS.json",
+      "bytes": 461819,
+      "sha256": "b1a3b558740b5a21ec1b2a22ff0c9642cd3291567cc7562d944ab18e1ea04645"
+    },
+    {
+      "path": "runs/primary_02/QUERY.jsonl",
+      "bytes": 2416025,
+      "sha256": "eaf3d1636e3f2c7c8f748328e97456651f86d94af5cff840a1bf86290e231a05"
+    },
+    {
+      "path": "runs/primary_03/check.py",
+      "bytes": 18149,
+      "sha256": "6df76144c85893b4ef0f4e8c0c996096d7a955964b5a4690f1ee29c467537ddd"
+    },
+    {
+      "path": "runs/primary_03/RESULTS.json",
+      "bytes": 461858,
+      "sha256": "3381ea4878446be0313eecb18ddf51718ddfea8b2cdf2514ffae87e0f0d78a8c"
+    },
+    {
+      "path": "runs/primary_03/QUERY.jsonl",
+      "bytes": 2416025,
+      "sha256": "eaf3d1636e3f2c7c8f748328e97456651f86d94af5cff840a1bf86290e231a05"
+    }
+  ],
+  "history_note": "Primary 01 harness failure; 02 lacked sparse-ID uniqueness gate; 03 added the gate; 04 preserves original-grid results and adds explicitly post-observation integer probe calibration. Local runtime FP-status warnings remain undiagnosed; raw machine-path-bearing logs stay off Git."
+}
