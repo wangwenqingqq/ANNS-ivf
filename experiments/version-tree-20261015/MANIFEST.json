@@ -1,0 +1,124 @@
+{
+  "parent_commit": "a139d04c17ea8dbf9cbef65f3f3cb5ffa812cad3",
+  "current": [
+    {
+      "path": ".gitignore",
+      "bytes": 20,
+      "sha256": "637400650411cd4eaf40681601af96eed5b72b298b06e54ed82a3d143938956a"
+    },
+    {
+      "path": "CONTRACT.md",
+      "bytes": 6639,
+      "sha256": "47bbbae38cd52fe3b3ca74ce99aa705ccda3e87c935e38896f6ec1b2db4fa1cf"
+    },
+    {
+      "path": "AMENDMENT.md",
+      "bytes": 2145,
+      "sha256": "a3cbfaa45186d8aa5db9a8d518a7797118ac0cc043dee141b3ef1ee43a0691f9"
+    },
+    {
+      "path": "indexes.py",
+      "bytes": 5610,
+      "sha256": "e240e0c3f0ff429a04648bb0182dbda621b6227755d75e4c1b0a177f9fa1830e"
+    },
+    {
+      "path": "blocks.py",
+      "bytes": 6450,
+      "sha256": "8ceb18ce20ec7eb0bef18b6fc86b84cabe76bfe557e01d8c56c9cb6b47f0a8fe"
+    },
+    {
+      "path": "check.py",
+      "bytes": 13240,
+      "sha256": "0417f88b181c9b1600b672752cd64dad8cde7e725293d1fa6aef43fd6a60e036"
+    },
+    {
+      "path": "README.md",
+      "bytes": 12075,
+      "sha256": "c88251c9c80e8d75fd97f037da41ea2c5346d2663316bccbf16d7df0bef24666"
+    },
+    {
+      "path": "RESULTS.json",
+      "bytes": 494108,
+      "sha256": "6e5a6bf33298a10caced94267a4c07b12e55fdbcec0c7a4ce1357bde61394297"
+    },
+    {
+      "path": "LOOKUP.jsonl",
+      "bytes": 219547,
+      "sha256": "8a1f9ccaacb4a3c4c7b5f70c5d679c9dcf37b46255a5075c612a73dbe7f4ee37"
+    }
+  ],
+  "preserved_runs": {
+    "primary_01": [
+      {
+        "path": "runs/primary_01/CONTRACT.md",
+        "bytes": 6639,
+        "sha256": "47bbbae38cd52fe3b3ca74ce99aa705ccda3e87c935e38896f6ec1b2db4fa1cf"
+      },
+      {
+        "path": "runs/primary_01/indexes.py",
+        "bytes": 5610,
+        "sha256": "e240e0c3f0ff429a04648bb0182dbda621b6227755d75e4c1b0a177f9fa1830e"
+      },
+      {
+        "path": "runs/primary_01/blocks.py",
+        "bytes": 6309,
+        "sha256": "f6722371c1783313446dd9c7a00ae9c8b1a4158c8fcffe38b054106391c59461"
+      },
+      {
+        "path": "runs/primary_01/check.py",
+        "bytes": 13024,
+        "sha256": "25bf4a6eded55d93b8eaf2faf884eb236296c50898b4ff7590bf8bbcaa36662d"
+      },
+      {
+        "path": "runs/primary_01/out/RESULTS.json",
+        "bytes": 493396,
+        "sha256": "38afe584ca3c697c19e4380707207d669fcff76036ceb073b278cc6da88147fa"
+      },
+      {
+        "path": "runs/primary_01/out/LOOKUP.jsonl",
+        "bytes": 219547,
+        "sha256": "8a1f9ccaacb4a3c4c7b5f70c5d679c9dcf37b46255a5075c612a73dbe7f4ee37"
+      }
+    ],
+    "primary_02": [
+      {
+        "path": "runs/primary_02/CONTRACT.md",
+        "bytes": 6639,
+        "sha256": "47bbbae38cd52fe3b3ca74ce99aa705ccda3e87c935e38896f6ec1b2db4fa1cf"
+      },
+      {
+        "path": "runs/primary_02/indexes.py",
+        "bytes": 5610,
+        "sha256": "e240e0c3f0ff429a04648bb0182dbda621b6227755d75e4c1b0a177f9fa1830e"
+      },
+      {
+        "path": "runs/primary_02/blocks.py",
+        "bytes": 6450,
+        "sha256": "8ceb18ce20ec7eb0bef18b6fc86b84cabe76bfe557e01d8c56c9cb6b47f0a8fe"
+      },
+      {
+        "path": "runs/primary_02/check.py",
+        "bytes": 13240,
+        "sha256": "0417f88b181c9b1600b672752cd64dad8cde7e725293d1fa6aef43fd6a60e036"
+      },
+      {
+        "path": "runs/primary_02/out/RESULTS.json",
+        "bytes": 494108,
+        "sha256": "6e5a6bf33298a10caced94267a4c07b12e55fdbcec0c7a4ce1357bde61394297"
+      },
+      {
+        "path": "runs/primary_02/out/LOOKUP.jsonl",
+        "bytes": 219547,
+        "sha256": "8a1f9ccaacb4a3c4c7b5f70c5d679c9dcf37b46255a5075c612a73dbe7f4ee37"
+      },
+      {
+        "path": "runs/primary_02/AMENDMENT.md",
+        "bytes": 2145,
+        "sha256": "a3cbfaa45186d8aa5db9a8d518a7797118ac0cc043dee141b3ef1ee43a0691f9"
+      }
+    ]
+  },
+  "preregistered_contract_sha256": "47bbbae38cd52fe3b3ca74ce99aa705ccda3e87c935e38896f6ec1b2db4fa1cf",
+  "history_note": "Primary_01 byte accounting omitted index/root descriptors; primary_02 adds declared fields without changing lookup receipts or per-success block allocation counts. Initial bytes remain off Git.",
+  "publication_scope": "Only experiments/version-tree-20261015; excludes unrelated unpublished work and all runs/logs."
+}
