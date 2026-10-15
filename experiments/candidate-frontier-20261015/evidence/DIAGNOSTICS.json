@@ -1,0 +1,428 @@
+{
+  "SIFT": {
+    "chosen_nprobe": 16,
+    "query_count": 64,
+    "perfect_oracle_avoided_percent": 98.34217532935278,
+    "certificates": {
+      "prefix_8": {
+        "online_read_ratio": 1.0959182775304428,
+        "grain32_read_ratio": 1.1206296831937694,
+        "full_row_fraction_quartiles": [
+          0.9950985949780901,
+          1.0,
+          1.0
+        ],
+        "hardness_quartiles": {
+          "0": {
+            "mean_full_rows": 8132.625,
+            "mean_read_ratio": 1.110270982191261
+          },
+          "1": {
+            "mean_full_rows": 8442.0,
+            "mean_read_ratio": 1.1220410353549317
+          },
+          "2": {
+            "mean_full_rows": 8350.75,
+            "mean_read_ratio": 1.116880519422908
+          },
+          "3": {
+            "mean_full_rows": 7648.25,
+            "mean_read_ratio": 1.034480573152671
+          }
+        }
+      },
+      "prefix_2": {
+        "online_read_ratio": 0.7965994471615538,
+        "grain32_read_ratio": 1.251903118398288,
+        "full_row_fraction_quartiles": [
+          0.1290061308799953,
+          0.25141632031995226,
+          0.4239426677493216
+        ],
+        "hardness_quartiles": {
+          "0": {
+            "mean_full_rows": 2899.75,
+            "mean_read_ratio": 0.8607733711792979
+          },
+          "1": {
+            "mean_full_rows": 2947.4375,
+            "mean_read_ratio": 0.8493045791499529
+          },
+          "2": {
+            "mean_full_rows": 2198.125,
+            "mean_read_ratio": 0.7653959811856494
+          },
+          "3": {
+            "mean_full_rows": 1617.4375,
+            "mean_read_ratio": 0.7109238571313155
+          }
+        }
+      },
+      "norm_8": {
+        "online_read_ratio": 1.0414789776377693,
+        "grain32_read_ratio": 1.1085653417722443,
+        "full_row_fraction_quartiles": [
+          0.9605476256719562,
+          0.9954807506332584,
+          0.9987085801660059
+        ],
+        "hardness_quartiles": {
+          "0": {
+            "mean_full_rows": 7680.6875,
+            "mean_read_ratio": 1.0616286820484953
+          },
+          "1": {
+            "mean_full_rows": 8214.375,
+            "mean_read_ratio": 1.0906718039095655
+          },
+          "2": {
+            "mean_full_rows": 7930.75,
+            "mean_read_ratio": 1.0681270286632776
+          },
+          "3": {
+            "mean_full_rows": 6918.5,
+            "mean_read_ratio": 0.9454883959297387
+          }
+        }
+      },
+      "norm_16": {
+        "online_read_ratio": 1.0741515520176543,
+        "grain32_read_ratio": 1.2107495781606072,
+        "full_row_fraction_quartiles": [
+          0.7303706585640859,
+          0.9615706345187732,
+          0.9899679155360528
+        ],
+        "hardness_quartiles": {
+          "0": {
+            "mean_full_rows": 6891.25,
+            "mean_read_ratio": 1.0934133668093846
+          },
+          "1": {
+            "mean_full_rows": 8032.625,
+            "mean_read_ratio": 1.1900769672524636
+          },
+          "2": {
+            "mean_full_rows": 6926.25,
+            "mean_read_ratio": 1.074562735660677
+          },
+          "3": {
+            "mean_full_rows": 5758.375,
+            "mean_read_ratio": 0.9385531383480918
+          }
+        }
+      },
+      "sq8": {
+        "online_read_ratio": 0.2867563378582976,
+        "grain32_read_ratio": 0.33975119727244824,
+        "full_row_fraction_quartiles": [
+          0.01057217437238432,
+          0.011964247006871497,
+          0.013085478440564628
+        ],
+        "hardness_quartiles": {
+          "0": {
+            "mean_full_rows": 105.3125,
+            "mean_read_ratio": 0.28762797336159696
+          },
+          "1": {
+            "mean_full_rows": 99.375,
+            "mean_read_ratio": 0.2865823628372379
+          },
+          "2": {
+            "mean_full_rows": 95.8125,
+            "mean_read_ratio": 0.28623691103612625
+          },
+          "3": {
+            "mean_full_rows": 98.0625,
+            "mean_read_ratio": 0.2865781041982295
+          }
+        }
+      }
+    }
+  },
+  "GIST": {
+    "chosen_nprobe": 16,
+    "query_count": 64,
+    "perfect_oracle_avoided_percent": 99.61427515023169,
+    "certificates": {
+      "prefix_8": {
+        "online_read_ratio": 1.1224363643784896,
+        "grain32_read_ratio": 1.1233175276051799,
+        "full_row_fraction_quartiles": [
+          0.9988581024031248,
+          0.9996132756661452,
+          0.9998283661676317
+        ],
+        "hardness_quartiles": {
+          "0": {
+            "mean_full_rows": 6088.1875,
+            "mean_read_ratio": 1.1224683321762385
+          },
+          "1": {
+            "mean_full_rows": 5653.5625,
+            "mean_read_ratio": 1.1227071729509097
+          },
+          "2": {
+            "mean_full_rows": 5294.375,
+            "mean_read_ratio": 1.1218792069199508
+          },
+          "3": {
+            "mean_full_rows": 5732.25,
+            "mean_read_ratio": 1.12269074546686
+          }
+        }
+      },
+      "prefix_2": {
+        "online_read_ratio": 1.2369455642816258,
+        "grain32_read_ratio": 1.4768318693219686,
+        "full_row_fraction_quartiles": [
+          0.6706478763580347,
+          0.7882879792438431,
+          0.8735265929798486
+        ],
+        "hardness_quartiles": {
+          "0": {
+            "mean_full_rows": 4314.9375,
+            "mean_read_ratio": 1.209327695841807
+          },
+          "1": {
+            "mean_full_rows": 4484.8125,
+            "mean_read_ratio": 1.2822132762747724
+          },
+          "2": {
+            "mean_full_rows": 3575.375,
+            "mean_read_ratio": 1.1627383653729022
+          },
+          "3": {
+            "mean_full_rows": 4558.1875,
+            "mean_read_ratio": 1.2935029196370214
+          }
+        }
+      },
+      "norm_8": {
+        "online_read_ratio": 0.9855862632442495,
+        "grain32_read_ratio": 1.016442337014024,
+        "full_row_fraction_quartiles": [
+          0.9455893198697293,
+          0.9850608312617297,
+          0.9940771928944859
+        ],
+        "hardness_quartiles": {
+          "0": {
+            "mean_full_rows": 5825.3125,
+            "mean_read_ratio": 0.9746539968027033
+          },
+          "1": {
+            "mean_full_rows": 5531.0625,
+            "mean_read_ratio": 0.9954269110340006
+          },
+          "2": {
+            "mean_full_rows": 5124.5,
+            "mean_read_ratio": 0.984435478127172
+          },
+          "3": {
+            "mean_full_rows": 5566.625,
+            "mean_read_ratio": 0.9878286670131222
+          }
+        }
+      },
+      "norm_16": {
+        "online_read_ratio": 0.9810234868318515,
+        "grain32_read_ratio": 1.032884674028048,
+        "full_row_fraction_quartiles": [
+          0.9159226164150709,
+          0.9710171978595417,
+          0.9875084980386786
+        ],
+        "hardness_quartiles": {
+          "0": {
+            "mean_full_rows": 5682.75,
+            "mean_read_ratio": 0.9687896266199201
+          },
+          "1": {
+            "mean_full_rows": 5448.0,
+            "mean_read_ratio": 0.9976863606401416
+          },
+          "2": {
+            "mean_full_rows": 5015.0,
+            "mean_read_ratio": 0.9806426100868314
+          },
+          "3": {
+            "mean_full_rows": 5408.4375,
+            "mean_read_ratio": 0.9769753499805129
+          }
+        }
+      },
+      "sq8": {
+        "online_read_ratio": 0.27108353332663493,
+        "grain32_read_ratio": 0.38454640661028877,
+        "full_row_fraction_quartiles": [
+          0.0181731133949124,
+          0.020147158729656257,
+          0.022217991497827983
+        ],
+        "hardness_quartiles": {
+          "0": {
+            "mean_full_rows": 114.4375,
+            "mean_read_ratio": 0.269745677191621
+          },
+          "1": {
+            "mean_full_rows": 118.0625,
+            "mean_read_ratio": 0.27161337408696906
+          },
+          "2": {
+            "mean_full_rows": 113.75,
+            "mean_read_ratio": 0.27208465774451346
+          },
+          "3": {
+            "mean_full_rows": 114.9375,
+            "mean_read_ratio": 0.2708904242834361
+          }
+        }
+      }
+    }
+  },
+  "Gaussian": {
+    "chosen_nprobe": 64,
+    "query_count": 64,
+    "perfect_oracle_avoided_percent": 99.67028326403327,
+    "certificates": {
+      "prefix_8": {
+        "online_read_ratio": 1.1237655925155925,
+        "grain32_read_ratio": 1.1237655925155925,
+        "full_row_fraction_quartiles": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "hardness_quartiles": {
+          "0": {
+            "mean_full_rows": 8192.0,
+            "mean_read_ratio": 1.1237655925155925
+          },
+          "1": {
+            "mean_full_rows": 8192.0,
+            "mean_read_ratio": 1.1237655925155925
+          },
+          "2": {
+            "mean_full_rows": 8192.0,
+            "mean_read_ratio": 1.1237655925155925
+          },
+          "3": {
+            "mean_full_rows": 8192.0,
+            "mean_read_ratio": 1.1237655925155925
+          }
+        }
+      },
+      "prefix_2": {
+        "online_read_ratio": 1.49506237006237,
+        "grain32_read_ratio": 1.49506237006237,
+        "full_row_fraction_quartiles": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "hardness_quartiles": {
+          "0": {
+            "mean_full_rows": 8192.0,
+            "mean_read_ratio": 1.49506237006237
+          },
+          "1": {
+            "mean_full_rows": 8192.0,
+            "mean_read_ratio": 1.49506237006237
+          },
+          "2": {
+            "mean_full_rows": 8192.0,
+            "mean_read_ratio": 1.49506237006237
+          },
+          "3": {
+            "mean_full_rows": 8192.0,
+            "mean_read_ratio": 1.49506237006237
+          }
+        }
+      },
+      "norm_8": {
+        "online_read_ratio": 1.016502079002079,
+        "grain32_read_ratio": 1.016502079002079,
+        "full_row_fraction_quartiles": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "hardness_quartiles": {
+          "0": {
+            "mean_full_rows": 8192.0,
+            "mean_read_ratio": 1.016502079002079
+          },
+          "1": {
+            "mean_full_rows": 8192.0,
+            "mean_read_ratio": 1.016502079002079
+          },
+          "2": {
+            "mean_full_rows": 8192.0,
+            "mean_read_ratio": 1.016502079002079
+          },
+          "3": {
+            "mean_full_rows": 8192.0,
+            "mean_read_ratio": 1.016502079002079
+          }
+        }
+      },
+      "norm_16": {
+        "online_read_ratio": 1.033004158004158,
+        "grain32_read_ratio": 1.033004158004158,
+        "full_row_fraction_quartiles": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "hardness_quartiles": {
+          "0": {
+            "mean_full_rows": 8192.0,
+            "mean_read_ratio": 1.033004158004158
+          },
+          "1": {
+            "mean_full_rows": 8192.0,
+            "mean_read_ratio": 1.033004158004158
+          },
+          "2": {
+            "mean_full_rows": 8192.0,
+            "mean_read_ratio": 1.033004158004158
+          },
+          "3": {
+            "mean_full_rows": 8192.0,
+            "mean_read_ratio": 1.033004158004158
+          }
+        }
+      },
+      "sq8": {
+        "online_read_ratio": 0.2757336146618373,
+        "grain32_read_ratio": 0.5549961018711019,
+        "full_row_fraction_quartiles": [
+          0.022705078125,
+          0.02398681640625,
+          0.025726318359375
+        ],
+        "hardness_quartiles": {
+          "0": {
+            "mean_full_rows": 201.625,
+            "mean_read_ratio": 0.27623420445686075
+          },
+          "1": {
+            "mean_full_rows": 202.625,
+            "mean_read_ratio": 0.27635602098492723
+          },
+          "2": {
+            "mean_full_rows": 198.875,
+            "mean_read_ratio": 0.2758992090046778
+          },
+          "3": {
+            "mean_full_rows": 186.9375,
+            "mean_read_ratio": 0.27444502420088357
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "primary": {
+    "status": "pass",
+    "exit_code": 0,
+    "source_snapshot": {
+      "native.py": "e78d58ddc8925e2f4eb137b14716d4cf5497e3431e14fc07c669da86a9712bb2",
+      "check.py": "27164080a2a30b85398c31116c3ba07d1c4e48cc5679454b30548c72c77ee2d0",
+      "certificates.py": "d83552b3f3f712e900e6523b578cacf7d1d3b4f9d85549110a2cc6e3c019fa7c",
+      "fetch.py": "892d4ed7d8493e7fd0b27df378f60f324359f282c914d46275e07cd6e8c8c20f",
+      "prepare.py": "b395b866a2750a907e8fa1b90494ade3e478a6dfdf29df14cd113a407d3ee063"
+    },
+    "preregistered_contract_sha256": "a56435ec07163365133a3589b05eb42011bd1a4d512046cec45a32326a3f67c3",
+    "stdout_sha256": "e89526dfe40f90caaf895674953652459e9ec6eb8eae83464c0e88439f43c1ac",
+    "pq_native_warning_count": 48,
+    "query_receipts": 18432,
+    "routing_receipts_including_calibration": 1152
+  },
+  "models": {
+    "models/GIST/rabitq_4.faiss": {
+      "sha256": "2b00e140cc34b691d9011d57da3cdf953233909be878493965d3acbe5603cb16",
+      "bytes": 12255992
+    },
+    "models/GIST/centers.npy": {
+      "sha256": "78da69f06c761b26e3d89c5935327a21fa115827e915cb2483b78429ccccc3f9",
+      "bytes": 245888
+    },
+    "models/GIST/labels.npy": {
+      "sha256": "084b2002b8f304e6706682825ada93a74e61a8af510666a86d3128f5521f328e",
+      "bytes": 131200
+    },
+    "models/GIST/pq8.faiss": {
+      "sha256": "cd78fb9545087da774a81d3041b43f47962cd6ff615467c12f1294d9cfdfc38d",
+      "bytes": 1622708
+    },
+    "models/GIST/flat.faiss": {
+      "sha256": "1f55a341bac371e9c4b45688cfbd9e4528061486dbe8cda5c66ee7999d37a378",
+      "bytes": 63292043
+    },
+    "models/GIST/rabitq_1.faiss": {
+      "sha256": "5f557cfa05e2b6a39285ae0297f8f5ad3bae7719039974e47e3fdc73ba1eda80",
+      "bytes": 6161136
+    },
+    "models/SIFT/rabitq_4.faiss": {
+      "sha256": "a98233f05998da98e70d6830c4d0f1b98b622db94ef3a038f963e448c3a232ee",
+      "bytes": 3113720
+    },
+    "models/SIFT/centers.npy": {
+      "sha256": "95deb900cfbd74dae2f6584e8a62e1df9588c3aeb797eba66bb9cd55bd9af629",
+      "bytes": 32896
+    },
+    "models/SIFT/labels.npy": {
+      "sha256": "b9b2a0d005bbd401a1eec34d9587bca32a95bcadb96b357fdcc21bcdd798b7e8",
+      "bytes": 262272
+    },
+    "models/SIFT/pq8.faiss": {
+      "sha256": "23883928c7ea74956200a36d11eeabfbcd6cbba945a0c7651ca9e5de0c6a02cf",
+      "bytes": 950964
+    },
+    "models/SIFT/flat.faiss": {
+      "sha256": "999eac4b5633602eea6cd32a59c3e9c963a25b64598dbd22911fe5441d656f77",
+      "bytes": 17072779
+    },
+    "models/SIFT/rabitq_1.faiss": {
+      "sha256": "c2aa5cbf8a2643f89779fee1f5e17cb6063dd9d6c89b214c397d87a224b0d51c",
+      "bytes": 1147632
+    },
+    "models/Gaussian/rabitq_4.faiss": {
+      "sha256": "8f4ad05dcc0c7e525410771015c40341e89500cfc54e2cc068b516d742260cb8",
+      "bytes": 8094456
+    },
+    "models/Gaussian/centers.npy": {
+      "sha256": "7e085204defc5303251b4f35cf10ef252bbb558c0347d81c4ffb14cd462910f6",
+      "bytes": 245888
+    },
+    "models/Gaussian/labels.npy": {
+      "sha256": "c133a1d7dbe8463e98a1b9b9bf27bc36cea5c88e0218d502230c53c58febf751",
+      "bytes": 65664
+    },
+    "models/Gaussian/pq8.faiss": {
+      "sha256": "ecc726c50c296c4962cfede5435922a95c0a57d71d64ca8230a7c86fcef43966",
+      "bytes": 1426100
+    },
+    "models/Gaussian/flat.faiss": {
+      "sha256": "9f20fa76ee5e2bccfc1daaa74133fa2cb4e7543d7ca1b528b31c73a99a8350cb",
+      "bytes": 31769227
+    },
+    "models/Gaussian/rabitq_1.faiss": {
+      "sha256": "5ce07bcc399ca1e5d70e0b601b349e9efab8f5926cdea45309b1eaa65a8fe022",
+      "bytes": 5047024
+    }
+  },
+  "verification_v1": {
+    "status": "failed verifier accounting assertion; primary result unchanged",
+    "source_sha256": "eda715b940e9a767ad0f1d4c409095332cd861d7e1fb0a9692852ebb45a1db40",
+    "log_sha256": "30154767283b481bffce4145c86dd3aacdcb21a7c8a0ef8042fc8301f82d563c",
+    "diagnosis": "Verifier used requested refine=128 instead of min(128,C) when C<128; primary ledger already correct."
+  },
+  "date": "2026-10-15",
+  "cpu_model": "Intel Xeon Gold 6530",
+  "cpu_thread_contract": 1,
+  "gpu_access": "none; no device initialization, polling or execution",
+  "performance_scope": "No timed performance comparison; CPU native build observations only, clocks/power not controlled.",
+  "software": {
+    "python": "3.12.3",
+    "numpy": "1.26.4",
+    "faiss_cpu": "1.15.1",
+    "cpu_arch": "x86_64"
+  },
+  "runtime_wheel": {
+    "package": "faiss-cpu==1.15.1",
+    "filename": "faiss_cpu-1.15.1-cp310-abi3-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+    "sha256": "f2c31b7f2f6647eb76829a5cfe3c398fb9346df9f26b1d4db35269c91eb58c33"
+  },
+  "primary_command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3 check.py --inputs inputs/primary --out runs/primary_01/out",
+  "native_pool_identity": "All refinement variants use prefixes of a single native k=min(128,C) search; not separate native k=10/32 executions.",
+  "dependency_setup": "Initial remote wheel download timed out before installation; verified official wheel transferred and installed offline into task-owned CPU target. No global environment changes.",
+  "verification_v2_correction": "Use min(refine,len(pool[0])) in independent verifier; no primary code, contract, result or comparison changed.",
+  "retention": "Models, data, original source snapshots and full logs retained outside Git. Model paths here are experiment-relative identifiers, not download locations.",
+  "figure_qa": "PNG, vector PDF rendered at 600 DPI, high-resolution crop and grayscale inspected; no clipping or overlap found. Physical GPU performance figure intentionally absent.",
+  "verification_arm64_v2": {
+    "scope": "independent direct-sum receipt replay; no GPU or timing claim",
+    "datasets": [
+      "SIFT",
+      "GIST"
+    ],
+    "native_saved_model_replay": false,
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "arch": "arm64",
+    "counts": {
+      "queries": 128,
+      "routing_cases": 512,
+      "certificate_timelines": 5120,
+      "native_rows": 0
+    },
+    "verifier_sha256": "54ac125a04841b0aab8810c810b09cafa341c6729f26bf44732f61116c965126",
+    "result_sha256": "dbc15316074ab7c8c77248c70768d56c7c1d386c02f9bdf8ef4e170184ec3688",
+    "passed": true
+  },
+  "verification_arm64_v1": {
+    "status": "passed certificate replay; superseded by identical-scope v2",
+    "source_sha256": "eda715b940e9a767ad0f1d4c409095332cd861d7e1fb0a9692852ebb45a1db40",
+    "report_sha256": "b483f22d8425a81945bd04f26b3269f61eca83f370c6fcf7506b9c8e0757d1c4"
+  },
+  "verification_x86_v2": {
+    "scope": "independent direct-sum receipt replay; no GPU or timing claim",
+    "datasets": [
+      "SIFT",
+      "GIST",
+      "Gaussian"
+    ],
+    "native_saved_model_replay": true,
+    "python": "3.12.3",
+    "numpy": "1.26.4",
+    "arch": "x86_64",
+    "counts": {
+      "queries": 192,
+      "routing_cases": 768,
+      "certificate_timelines": 7680,
+      "native_rows": 9984
+    },
+    "verifier_sha256": "54ac125a04841b0aab8810c810b09cafa341c6729f26bf44732f61116c965126",
+    "result_sha256": "dbc15316074ab7c8c77248c70768d56c7c1d386c02f9bdf8ef4e170184ec3688",
+    "passed": true
+  },
+  "verification_arm64_generator": "All three synthetic array hashes independently matched primary x86 under NumPy2.3.5; this is generator integrity, not native model replay.",
+  "work_ledger_validation": "72 aggregate rows: reads sum evidence/code + payload + IDs; all declared static footprints within common illustrative budgets.",
+  "verification_v2_log_hashes": {
+    "x86_64": "ba8d06e4323361f864a61f28c624e47fec8d1d9c88fe34dc39eab398ee1b8b5a",
+    "arm64": "212bb3d1b499d2b1dc6cef445f79d33e74d55bda9b3b0c56edef989c775ab504"
+  }
+}

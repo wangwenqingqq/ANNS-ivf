@@ -1,0 +1,100 @@
+{
+  "scope": "bounded prefixes, not full-million datasets",
+  "datasets": [
+    {
+      "name": "SIFT",
+      "base": {
+        "offset_rows": 0,
+        "rows": 32768,
+        "dimension": 128,
+        "raw_fvecs_sha256": "a21f61bfa0acbf2fc44a6d0a4ee8011677112ff2ebc9284d93596e9bada31749",
+        "array_sha256": "39e67363bbc6dc79fdb6cabbe73b2aaa148076d531c2da31f6e9395d59698e4a"
+      },
+      "training": {
+        "offset_rows": 262144,
+        "rows": 8192,
+        "dimension": 128,
+        "raw_fvecs_sha256": "297c694c576e386acb5a84b50d0ac61c95f47198e405b5866bebea56b8f10ab6",
+        "array_sha256": "b3eb25ce4b53ab22021a27153b0e4e38a519857b47e556723b0ae3310b7ff880"
+      },
+      "queries": {
+        "offset_rows": 0,
+        "rows": 96,
+        "dimension": 128,
+        "raw_fvecs_sha256": "8fc868ee9f26296349a3ccefa8256546c03cde54101b2abeda8afb6e516400be",
+        "array_sha256": "4529711e2ad7f4d10e4dd5a8d952d2171c90efab2ac61e83c87ec0f22b5c1b11"
+      },
+      "public_prefix_equivalence": "All selected base/training/query decoded arrays match pinned public mirror bytes"
+    },
+    {
+      "name": "GIST",
+      "base": {
+        "offset_rows": 0,
+        "rows": 16384,
+        "dimension": 960,
+        "raw_fvecs_sha256": "5d06d4fee30f067cb92a193b3e87f5081b9cb8ab44233f4639bb4172ae98e0ee",
+        "array_sha256": "a6a6fe380fd00b02f331c002f7c33ba31e68c63012fff3d3efd1dcbb849b1a03"
+      },
+      "training": {
+        "offset_rows": 16384,
+        "rows": 8192,
+        "dimension": 960,
+        "raw_fvecs_sha256": "5768f603e0e174483c56de217fbec0693128327110d3285c9abfe11c03cf6ffa",
+        "array_sha256": "43cc78e08b7d92c72e7bbff8ababe1d9dd1841b3fca6a617b205fa6e266670bb"
+      },
+      "queries": {
+        "offset_rows": 0,
+        "rows": 96,
+        "dimension": 960,
+        "raw_fvecs_sha256": "2f083a74b09c3106a63a300a1613706a6c12dd1429dc46d8f0a9409b8a7ee374",
+        "array_sha256": "a25eabf1f64b468fc53a9df42d97404d03b7d713a3c14799c695dd9acfb42835"
+      },
+      "public_prefix_equivalence": "All selected base/training/query decoded arrays match pinned public mirror bytes"
+    },
+    {
+      "name": "Gaussian",
+      "synthetic": true,
+      "generator": "PCG64 seed 20261015; FP32 independent normal then FP64 norm / FP32 normalization",
+      "arrays": {
+        "x": {
+          "shape": [
+            8192,
+            960
+          ],
+          "sha256": "287a33405395a5acbdd4a5b9908c9dd8fd6a713d3c56db5ab2c429ebba77f68a"
+        },
+        "train": {
+          "shape": [
+            8192,
+            960
+          ],
+          "sha256": "4e21640cb15b53375d4370c85ce4b4fd9b36e8a6d12d4889eeba7d2e71b818ae"
+        },
+        "q": {
+          "shape": [
+            96,
+            960
+          ],
+          "sha256": "b696c5923914083c94673e9df44d6f1698aef457bead83e509c45d34681a883b"
+        }
+      }
+    }
+  ],
+  "public_sources": {
+    "SIFT_public_mirror": "https://huggingface.co/datasets/hhy3/ann-datasets/resolve/0bc1ed67fc2626bc6f110c8794a70572681b7395/sift1M/",
+    "GIST_public_mirror": "https://huggingface.co/datasets/maknee/gist1m/resolve/a82497d163022c768ca9288b1d83f9cd0c97640b/fbin/",
+    "official_original_archive_equivalence_verified": false,
+    "datasets": {
+      "SIFT": {
+        "x": "39e67363bbc6dc79fdb6cabbe73b2aaa148076d531c2da31f6e9395d59698e4a",
+        "train": "b3eb25ce4b53ab22021a27153b0e4e38a519857b47e556723b0ae3310b7ff880",
+        "q": "4529711e2ad7f4d10e4dd5a8d952d2171c90efab2ac61e83c87ec0f22b5c1b11"
+      },
+      "GIST": {
+        "x": "a6a6fe380fd00b02f331c002f7c33ba31e68c63012fff3d3efd1dcbb849b1a03",
+        "train": "43cc78e08b7d92c72e7bbff8ababe1d9dd1841b3fca6a617b205fa6e266670bb",
+        "q": "a25eabf1f64b468fc53a9df42d97404d03b7d713a3c14799c695dd9acfb42835"
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "scope": "independent direct-sum receipt replay; no GPU or timing claim",
+  "datasets": [
+    "SIFT",
+    "GIST",
+    "Gaussian"
+  ],
+  "native_saved_model_replay": true,
+  "python": "3.12.3",
+  "numpy": "1.26.4",
+  "arch": "x86_64",
+  "counts": {
+    "queries": 192,
+    "routing_cases": 768,
+    "certificate_timelines": 7680,
+    "native_rows": 9984
+  },
+  "verifier_sha256": "54ac125a04841b0aab8810c810b09cafa341c6729f26bf44732f61116c965126",
+  "result_sha256": "dbc15316074ab7c8c77248c70768d56c7c1d386c02f9bdf8ef4e170184ec3688",
+  "passed": true
+}
