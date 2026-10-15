@@ -53,3 +53,12 @@ baseline's real replace/search/maintenance path with explicit successful IDs,
 recall and physical/logical bytes. A new design requires a measured residual
 and a non-incremental mechanism beyond those existing controls. No broad scaling
 or paper drafting is authorized by a compilation result.
+
+## CPU-only topology attribution follow-up
+
+The [CPU unlink ablation](cpu-unlink/README.md) separates back-link topology
+from physical reclaim eligibility. Its model changes retention through the
+collector policy, not through prev pointers, and preserves counterexamples
+for adjacent unlink and indirectly referenced transit versions. These are
+CPU-only explanatory results; all original GPU admission/matrix states above
+remain unchanged. No new reclamation mechanism is admitted.

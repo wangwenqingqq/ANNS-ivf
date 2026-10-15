@@ -63,3 +63,9 @@ the initial seven named gates and never means racecheck or full admission passed
   rejected isolation/race records remain labeled ineligible, not silently dropped.
 - Current `probe.cu`: native CTA group adapter; built/smoke-observed, final
   isolation/sanitizer admission pending. `UPSTREAM.json` binds unmodified headers.
+
+## CPU-only topology follow-up
+
+See [cpu-unlink/README.md](cpu-unlink/README.md) for the topology/retention
+2x2 ablation, all bounded adjacent-removal schedules, and a cause-specific
+dangling-cursor counterexample. This does not advance the pending GPU gates.

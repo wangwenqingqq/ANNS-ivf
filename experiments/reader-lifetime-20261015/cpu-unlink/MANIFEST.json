@@ -1,0 +1,37 @@
+{
+  "current": [
+    {
+      "path": "check.py",
+      "bytes": 13900,
+      "sha256": "6e534c68d7d3999926fa07d2edc6ab9b9060d8678d1a56b1f107d9c74e983c69"
+    },
+    {
+      "path": "CONTRACT.md",
+      "bytes": 4552,
+      "sha256": "953a7107b1e8b514e8f9043af6079fc652429bdb46f1beacd2772c0bd4524518"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7048,
+      "sha256": "7f3f5d93d9e1fe9aa1304ac69abc5a243b6fad22c3d3f5d9227572fea3a02ab6"
+    },
+    {
+      "path": "RESULTS.json",
+      "bytes": 344663,
+      "sha256": "a8e7631002aceb88c74f85be5d15d0186709f9945a3bfd569cbea82044393462"
+    }
+  ],
+  "historical_initial": [
+    {
+      "path": "runs/initial_01/RESULTS.json",
+      "bytes": 344533,
+      "sha256": "ddacc542728dbb73cd5c88ede8a1fd57e7e25e5eb5b5cca3cde2b85d96e8f5ca"
+    },
+    {
+      "path": "runs/initial_01/check.py",
+      "bytes": 13598,
+      "sha256": "7bf2973c9e9a3bb9593172265737eed0ee2f8b2e738d813a3d4911295d3b0241"
+    }
+  ],
+  "history_note": "Initial mutation was strengthened to preserve accounting and isolate dangling-reference rejection; original source/result remain off Git."
+}
