@@ -1,0 +1,831 @@
+{
+  "source_commit": "c41c59d8f65e7a1eefac4aba500e8b6f17b6f546",
+  "snapshots": {
+    "snapshots/T1_hole/A.json": {
+      "passed": true,
+      "errors": [],
+      "reachable": 1,
+      "free": 127,
+      "orphan": 0,
+      "oracle_live": 32,
+      "reachable_ids": 32
+    },
+    "snapshots/T1_hole/B.json": {
+      "passed": true,
+      "errors": [],
+      "reachable": 1,
+      "free": 127,
+      "orphan": 0,
+      "oracle_live": 31,
+      "reachable_ids": 31
+    },
+    "snapshots/T1_hole/B_repeat.json": {
+      "passed": true,
+      "errors": [],
+      "reachable": 1,
+      "free": 127,
+      "orphan": 0,
+      "oracle_live": 31,
+      "reachable_ids": 31
+    },
+    "snapshots/T1_hole/C.json": {
+      "passed": false,
+      "errors": [
+        "I5: slab 127: count=32 popcount=31",
+        "I1/I2: expected live ID 31 is missing",
+        "I2: active IDs 31 and 100 share ATT 545460846623"
+      ],
+      "reachable": 1,
+      "free": 127,
+      "orphan": 0,
+      "oracle_live": 32,
+      "reachable_ids": 31
+    },
+    "snapshots/T1_tail/A.json": {
+      "passed": true,
+      "errors": [],
+      "reachable": 1,
+      "free": 127,
+      "orphan": 0,
+      "oracle_live": 32,
+      "reachable_ids": 32
+    },
+    "snapshots/T1_tail/B.json": {
+      "passed": true,
+      "errors": [],
+      "reachable": 1,
+      "free": 127,
+      "orphan": 0,
+      "oracle_live": 31,
+      "reachable_ids": 31
+    },
+    "snapshots/T1_tail/B_repeat.json": {
+      "passed": true,
+      "errors": [],
+      "reachable": 1,
+      "free": 127,
+      "orphan": 0,
+      "oracle_live": 31,
+      "reachable_ids": 31
+    },
+    "snapshots/T1_tail/C.json": {
+      "passed": true,
+      "errors": [],
+      "reachable": 1,
+      "free": 127,
+      "orphan": 0,
+      "oracle_live": 32,
+      "reachable_ids": 32
+    },
+    "snapshots/T2_head/A.json": {
+      "passed": true,
+      "errors": [],
+      "reachable": 2,
+      "free": 126,
+      "orphan": 0,
+      "oracle_live": 64,
+      "reachable_ids": 64
+    },
+    "snapshots/T2_head/B.json": {
+      "passed": false,
+      "errors": [
+        "I4: reachable slab 126 is free"
+      ],
+      "reachable": 2,
+      "free": 127,
+      "orphan": 0,
+      "oracle_live": 32,
+      "reachable_ids": 32
+    },
+    "snapshots/T2_head/C.json": {
+      "passed": false,
+      "errors": [
+        "I3: ID 100 is in wrong list 0",
+        "I3: slab 126 belongs to lists 0 and 1",
+        "I1: duplicate reachable ID 100",
+        "I1/I2: expected live ID 0 is missing",
+        "I1/I2: expected live ID 1 is missing",
+        "I1/I2: expected live ID 2 is missing",
+        "I1/I2: expected live ID 3 is missing",
+        "I1/I2: expected live ID 4 is missing",
+        "I1/I2: expected live ID 5 is missing",
+        "I1/I2: expected live ID 6 is missing",
+        "I1/I2: expected live ID 7 is missing",
+        "I1/I2: expected live ID 8 is missing",
+        "I1/I2: expected live ID 9 is missing",
+        "I1/I2: expected live ID 10 is missing",
+        "I1/I2: expected live ID 11 is missing",
+        "I1/I2: expected live ID 12 is missing",
+        "I1/I2: expected live ID 13 is missing",
+        "I1/I2: expected live ID 14 is missing",
+        "I1/I2: expected live ID 15 is missing",
+        "I1/I2: expected live ID 16 is missing",
+        "I1/I2: expected live ID 17 is missing",
+        "I1/I2: expected live ID 18 is missing",
+        "I1/I2: expected live ID 19 is missing",
+        "I1/I2: expected live ID 20 is missing",
+        "I1/I2: expected live ID 21 is missing",
+        "I1/I2: expected live ID 22 is missing",
+        "I1/I2: expected live ID 23 is missing",
+        "I1/I2: expected live ID 24 is missing",
+        "I1/I2: expected live ID 25 is missing",
+        "I1/I2: expected live ID 26 is missing",
+        "I1/I2: expected live ID 27 is missing",
+        "I1/I2: expected live ID 28 is missing",
+        "I1/I2: expected live ID 29 is missing",
+        "I1/I2: expected live ID 30 is missing",
+        "I1/I2: expected live ID 31 is missing",
+        "RESOURCE: 1 slabs are neither reachable nor free"
+      ],
+      "reachable": 1,
+      "free": 126,
+      "orphan": 1,
+      "oracle_live": 33,
+      "reachable_ids": 1
+    },
+    "snapshots/T2_middle/A.json": {
+      "passed": true,
+      "errors": [],
+      "reachable": 3,
+      "free": 125,
+      "orphan": 0,
+      "oracle_live": 96,
+      "reachable_ids": 96
+    },
+    "snapshots/T2_middle/B.json": {
+      "passed": false,
+      "errors": [
+        "I4: reachable slab 126 is free"
+      ],
+      "reachable": 3,
+      "free": 126,
+      "orphan": 0,
+      "oracle_live": 64,
+      "reachable_ids": 64
+    },
+    "snapshots/T2_middle/C.json": {
+      "passed": false,
+      "errors": [
+        "I3: ID 100 is in wrong list 0",
+        "I3: slab 126 belongs to lists 0 and 1",
+        "I1: duplicate reachable ID 100",
+        "I1/I2: expected live ID 0 is missing",
+        "I1/I2: expected live ID 1 is missing",
+        "I1/I2: expected live ID 2 is missing",
+        "I1/I2: expected live ID 3 is missing",
+        "I1/I2: expected live ID 4 is missing",
+        "I1/I2: expected live ID 5 is missing",
+        "I1/I2: expected live ID 6 is missing",
+        "I1/I2: expected live ID 7 is missing",
+        "I1/I2: expected live ID 8 is missing",
+        "I1/I2: expected live ID 9 is missing",
+        "I1/I2: expected live ID 10 is missing",
+        "I1/I2: expected live ID 11 is missing",
+        "I1/I2: expected live ID 12 is missing",
+        "I1/I2: expected live ID 13 is missing",
+        "I1/I2: expected live ID 14 is missing",
+        "I1/I2: expected live ID 15 is missing",
+        "I1/I2: expected live ID 16 is missing",
+        "I1/I2: expected live ID 17 is missing",
+        "I1/I2: expected live ID 18 is missing",
+        "I1/I2: expected live ID 19 is missing",
+        "I1/I2: expected live ID 20 is missing",
+        "I1/I2: expected live ID 21 is missing",
+        "I1/I2: expected live ID 22 is missing",
+        "I1/I2: expected live ID 23 is missing",
+        "I1/I2: expected live ID 24 is missing",
+        "I1/I2: expected live ID 25 is missing",
+        "I1/I2: expected live ID 26 is missing",
+        "I1/I2: expected live ID 27 is missing",
+        "I1/I2: expected live ID 28 is missing",
+        "I1/I2: expected live ID 29 is missing",
+        "I1/I2: expected live ID 30 is missing",
+        "I1/I2: expected live ID 31 is missing",
+        "RESOURCE: 1 slabs are neither reachable nor free"
+      ],
+      "reachable": 2,
+      "free": 125,
+      "orphan": 1,
+      "oracle_live": 65,
+      "reachable_ids": 33
+    },
+    "snapshots/T3/batch_1024_trial0.json": {
+      "passed": false,
+      "errors": [
+        "RESOURCE: 16569 slabs are neither reachable nor free"
+      ],
+      "reachable": 32,
+      "free": 48935,
+      "orphan": 16569,
+      "oracle_live": 1024,
+      "reachable_ids": 1024
+    },
+    "snapshots/T3/batch_256_trial0.json": {
+      "passed": false,
+      "errors": [
+        "RESOURCE: 1033 slabs are neither reachable nor free"
+      ],
+      "reachable": 8,
+      "free": 15343,
+      "orphan": 1033,
+      "oracle_live": 256,
+      "reachable_ids": 256
+    },
+    "snapshots/T3/batch_64_trial0.json": {
+      "passed": false,
+      "errors": [
+        "RESOURCE: 94 slabs are neither reachable nor free"
+      ],
+      "reachable": 2,
+      "free": 4000,
+      "orphan": 94,
+      "oracle_live": 64,
+      "reachable_ids": 64
+    },
+    "snapshots/T3_counted/batch_1024_trial0.json": {
+      "passed": false,
+      "errors": [
+        "RESOURCE: 16581 slabs are neither reachable nor free"
+      ],
+      "reachable": 32,
+      "free": 48923,
+      "orphan": 16581,
+      "oracle_live": 1024,
+      "reachable_ids": 1024
+    },
+    "snapshots/T3_counted/batch_256_trial0.json": {
+      "passed": false,
+      "errors": [
+        "RESOURCE: 1023 slabs are neither reachable nor free"
+      ],
+      "reachable": 8,
+      "free": 15353,
+      "orphan": 1023,
+      "oracle_live": 256,
+      "reachable_ids": 256
+    },
+    "snapshots/T3_counted/batch_64_trial0.json": {
+      "passed": false,
+      "errors": [
+        "RESOURCE: 94 slabs are neither reachable nor free"
+      ],
+      "reachable": 2,
+      "free": 4000,
+      "orphan": 94,
+      "oracle_live": 64,
+      "reachable_ids": 64
+    },
+    "snapshots/T3_growth/batch_0.json": {
+      "passed": false,
+      "errors": [
+        "RESOURCE: 94 slabs are neither reachable nor free"
+      ],
+      "reachable": 2,
+      "free": 130976,
+      "orphan": 94,
+      "oracle_live": 64,
+      "reachable_ids": 64
+    },
+    "snapshots/T3_growth/batch_999.json": {
+      "passed": false,
+      "errors": [
+        "RESOURCE: 94000 slabs are neither reachable nor free"
+      ],
+      "reachable": 2000,
+      "free": 35072,
+      "orphan": 94000,
+      "oracle_live": 64000,
+      "reachable_ids": 64000
+    },
+    "snapshots/T4/trial_0.json": {
+      "passed": false,
+      "errors": [
+        "RESOURCE: 7 slabs are neither reachable nor free"
+      ],
+      "reachable": 2,
+      "free": 119,
+      "orphan": 7,
+      "oracle_live": 32,
+      "reachable_ids": 32
+    },
+    "snapshots/T4/trial_999.json": {
+      "passed": false,
+      "errors": [
+        "RESOURCE: 7 slabs are neither reachable nor free"
+      ],
+      "reachable": 2,
+      "free": 119,
+      "orphan": 7,
+      "oracle_live": 32,
+      "reachable_ids": 32
+    },
+    "snapshots/T4_profiled/trial_0.json": {
+      "passed": false,
+      "errors": [
+        "RESOURCE: 7 slabs are neither reachable nor free"
+      ],
+      "reachable": 2,
+      "free": 119,
+      "orphan": 7,
+      "oracle_live": 32,
+      "reachable_ids": 32
+    },
+    "snapshots/T4_profiled/trial_9.json": {
+      "passed": false,
+      "errors": [
+        "RESOURCE: 7 slabs are neither reachable nor free"
+      ],
+      "reachable": 2,
+      "free": 119,
+      "orphan": 7,
+      "oracle_live": 32,
+      "reachable_ids": 32
+    },
+    "snapshots/T7_pool/A.json": {
+      "passed": true,
+      "errors": [],
+      "reachable": 1,
+      "free": 0,
+      "orphan": 0,
+      "oracle_live": 32,
+      "reachable_ids": 32
+    },
+    "snapshots/T7_pool/B.json": {
+      "passed": false,
+      "errors": [
+        "I1/I2: expected live ID 100 is missing",
+        "I1: expected live ID 100 has invalid ATT"
+      ],
+      "reachable": 1,
+      "free": 0,
+      "orphan": 0,
+      "oracle_live": 33,
+      "reachable_ids": 32
+    },
+    "snapshots/dim_128/state.json": {
+      "passed": true,
+      "errors": [],
+      "reachable": 1,
+      "free": 127,
+      "orphan": 0,
+      "oracle_live": 32,
+      "reachable_ids": 32
+    },
+    "snapshots/dim_256/state.json": {
+      "passed": true,
+      "errors": [],
+      "reachable": 1,
+      "free": 127,
+      "orphan": 0,
+      "oracle_live": 32,
+      "reachable_ids": 32
+    },
+    "snapshots/dim_257/state.json": {
+      "passed": true,
+      "errors": [],
+      "reachable": 1,
+      "free": 127,
+      "orphan": 0,
+      "oracle_live": 32,
+      "reachable_ids": 32
+    },
+    "snapshots/dim_960/state.json": {
+      "passed": true,
+      "errors": [],
+      "reachable": 1,
+      "free": 127,
+      "orphan": 0,
+      "oracle_live": 32,
+      "reachable_ids": 32
+    },
+    "snapshots/smoke/A.json": {
+      "passed": true,
+      "errors": [],
+      "reachable": 1,
+      "free": 127,
+      "orphan": 0,
+      "oracle_live": 32,
+      "reachable_ids": 32
+    }
+  },
+  "searches": {
+    "snapshots/T1_hole/search.json": {
+      "passed": false,
+      "actual": [
+        10,
+        15,
+        2,
+        29,
+        4,
+        1,
+        11,
+        21,
+        0,
+        26
+      ],
+      "expected": [
+        31,
+        10,
+        15,
+        2,
+        29,
+        4,
+        1,
+        11,
+        21,
+        0
+      ]
+    },
+    "snapshots/T1_tail/search.json": {
+      "passed": true,
+      "actual": [
+        10,
+        15,
+        2,
+        29,
+        4,
+        1,
+        11,
+        21,
+        0,
+        26
+      ],
+      "expected": [
+        10,
+        15,
+        2,
+        29,
+        4,
+        1,
+        11,
+        21,
+        0,
+        26
+      ]
+    },
+    "snapshots/T2_head/search_list0.json": {
+      "passed": false,
+      "actual": [
+        100,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "expected": [
+        3,
+        6,
+        7,
+        13,
+        5,
+        17,
+        11,
+        12,
+        16,
+        4
+      ]
+    },
+    "snapshots/T2_head/search_list1.json": {
+      "passed": true,
+      "actual": [
+        100,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "expected": [
+        100
+      ]
+    },
+    "snapshots/T2_middle/search_list0.json": {
+      "passed": false,
+      "actual": [
+        100,
+        71,
+        80,
+        70,
+        91,
+        82,
+        81,
+        74,
+        73,
+        78
+      ],
+      "expected": [
+        71,
+        3,
+        80,
+        70,
+        91,
+        6,
+        82,
+        81,
+        74,
+        7
+      ]
+    },
+    "snapshots/T2_middle/search_list1.json": {
+      "passed": true,
+      "actual": [
+        100,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "expected": [
+        100
+      ]
+    },
+    "snapshots/dim_128/search.json": {
+      "passed": true,
+      "actual": [
+        17,
+        5,
+        31,
+        29,
+        28,
+        19,
+        24,
+        1,
+        12,
+        10
+      ],
+      "expected": [
+        17,
+        5,
+        31,
+        29,
+        28,
+        19,
+        24,
+        1,
+        12,
+        10
+      ]
+    },
+    "snapshots/dim_256/search.json": {
+      "passed": true,
+      "actual": [
+        17,
+        29,
+        5,
+        16,
+        10,
+        25,
+        12,
+        9,
+        3,
+        27
+      ],
+      "expected": [
+        17,
+        29,
+        5,
+        16,
+        10,
+        25,
+        12,
+        9,
+        3,
+        27
+      ]
+    },
+    "snapshots/dim_257/search.json": {
+      "passed": true,
+      "actual": [
+        17,
+        29,
+        5,
+        16,
+        10,
+        25,
+        12,
+        3,
+        27,
+        9
+      ],
+      "expected": [
+        17,
+        29,
+        5,
+        16,
+        10,
+        25,
+        12,
+        3,
+        27,
+        9
+      ]
+    },
+    "snapshots/dim_960/search.json": {
+      "passed": true,
+      "actual": [
+        17,
+        16,
+        29,
+        15,
+        27,
+        9,
+        28,
+        10,
+        25,
+        3
+      ],
+      "expected": [
+        17,
+        16,
+        29,
+        15,
+        27,
+        9,
+        28,
+        10,
+        25,
+        3
+      ]
+    },
+    "snapshots/smoke/search.json": {
+      "passed": true,
+      "actual": [
+        17,
+        5,
+        31,
+        29,
+        28,
+        19,
+        24,
+        1,
+        12,
+        10
+      ],
+      "expected": [
+        17,
+        5,
+        31,
+        29,
+        28,
+        19,
+        24,
+        1,
+        12,
+        10
+      ]
+    }
+  },
+  "T3": {
+    "T3": {
+      "64": {
+        "trials": 1000,
+        "trials_with_orphans": 1000,
+        "orphan_min": 94,
+        "orphan_max": 94,
+        "orphan_total": 94000,
+        "free_min": 4000,
+        "committed_min": 64
+      },
+      "256": {
+        "trials": 1000,
+        "trials_with_orphans": 1000,
+        "orphan_min": 924,
+        "orphan_max": 1103,
+        "orphan_total": 1022706,
+        "free_min": 15273,
+        "committed_min": 256
+      },
+      "1024": {
+        "trials": 1000,
+        "trials_with_orphans": 1000,
+        "orphan_min": 16376,
+        "orphan_max": 16727,
+        "orphan_total": 16560791,
+        "free_min": 48777,
+        "committed_min": 1024
+      }
+    },
+    "T3_counted": {
+      "64": {
+        "trials": 1000,
+        "trials_with_orphans": 1000,
+        "orphan_min": 94,
+        "orphan_max": 94,
+        "orphan_total": 94000,
+        "free_min": 4000,
+        "committed_min": 64,
+        "orphan_equals_failed_cas_every_trial": true,
+        "allocations_equal_reachable_plus_orphans_every_trial": true,
+        "reclaimed_total": 0,
+        "insert_failed_total": 0
+      },
+      "256": {
+        "trials": 1000,
+        "trials_with_orphans": 1000,
+        "orphan_min": 930,
+        "orphan_max": 1114,
+        "orphan_total": 1032582,
+        "free_min": 15262,
+        "committed_min": 256,
+        "orphan_equals_failed_cas_every_trial": true,
+        "allocations_equal_reachable_plus_orphans_every_trial": true,
+        "reclaimed_total": 0,
+        "insert_failed_total": 0
+      },
+      "1024": {
+        "trials": 1000,
+        "trials_with_orphans": 1000,
+        "orphan_min": 16361,
+        "orphan_max": 16753,
+        "orphan_total": 16582505,
+        "free_min": 48751,
+        "committed_min": 1024,
+        "orphan_equals_failed_cas_every_trial": true,
+        "allocations_equal_reachable_plus_orphans_every_trial": true,
+        "reclaimed_total": 0,
+        "insert_failed_total": 0
+      }
+    }
+  },
+  "T5": {
+    "T5": {
+      "trials": 1000,
+      "stale_allocations": 0,
+      "correct_allocations": 1000,
+      "empty_returns": 0
+    },
+    "T5_injected": {
+      "trials": 10,
+      "stale_allocations": 9,
+      "correct_allocations": 1,
+      "empty_returns": 0
+    }
+  },
+  "T6": {
+    "128": {
+      "memcheck_errors": 0,
+      "search_passed": true,
+      "scope": "source bounds risk is not itself a reproduced device memory error"
+    },
+    "256": {
+      "memcheck_errors": 0,
+      "search_passed": true,
+      "scope": "source bounds risk is not itself a reproduced device memory error"
+    },
+    "257": {
+      "memcheck_errors": 0,
+      "search_passed": true,
+      "scope": "source bounds risk is not itself a reproduced device memory error"
+    },
+    "960": {
+      "memcheck_errors": 0,
+      "search_passed": true,
+      "scope": "source bounds risk is not itself a reproduced device memory error"
+    }
+  },
+  "T3_growth": {
+    "batches": 1000,
+    "first": {
+      "batch": "0",
+      "attempted": "64",
+      "free": "130976",
+      "reachable": "2",
+      "orphan": "94"
+    },
+    "last": {
+      "batch": "999",
+      "attempted": "64000",
+      "free": "35072",
+      "reachable": "2000",
+      "orphan": "94000"
+    },
+    "orphans_nondecreasing": true
+  },
+  "T4": {
+    "trials": 1000,
+    "inconsistent_returned_pairs": 0,
+    "trials_with_three_overlapping_event_windows": 1000,
+    "scope": "independent streams with a common gate; event windows are bounds, not an instruction-level overlap trace"
+  },
+  "I6": {
+    "T1_hole": true,
+    "T1_tail": true
+  },
+  "T7_public": [
+    "T7_PUBLIC controlled_oom=true control_first_insert=1 initial_free=4115 first_count=1 before_ntotal=32 after_ntotal=33 new_id_committed=0 exception=0"
+  ]
+}

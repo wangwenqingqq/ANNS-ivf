@@ -1,0 +1,62 @@
+[
+  {
+    "path": "evidence/snapshots/T1_hole/C.json",
+    "source": "snapshots/T1_hole/C.json",
+    "sha256": "c4db9930623c06d35c44002827671fae968271f40fcd38d0e8311778c25ee579"
+  },
+  {
+    "path": "evidence/snapshots/T1_tail/C.json",
+    "source": "snapshots/T1_tail/C.json",
+    "sha256": "578eca8b29f191bf6951521d690ecd9bd6cf6969456d8241c5ef41b441fa53d6"
+  },
+  {
+    "path": "evidence/snapshots/T2_head/B.json",
+    "source": "snapshots/T2_head/B.json",
+    "sha256": "2b6431feba2af913436ac79838f9387a33ac81cc587553fd2339990ebd7581e9"
+  },
+  {
+    "path": "evidence/snapshots/T2_head/C.json",
+    "source": "snapshots/T2_head/C.json",
+    "sha256": "9869f0427beec577bf97f670bb845eb7b8fd50534f821c14150a7dce96fbaf88"
+  },
+  {
+    "path": "evidence/snapshots/T2_middle/B.json",
+    "source": "snapshots/T2_middle/B.json",
+    "sha256": "09376befcf9d54eb4ce4b4e58ce2a869b30e358a18c4f35c41b53d4f10a61667"
+  },
+  {
+    "path": "evidence/snapshots/T2_middle/C.json",
+    "source": "snapshots/T2_middle/C.json",
+    "sha256": "4108dae21e4355bb249180425f36700cfc59532fbb90acef8382122c3a48b93a"
+  },
+  {
+    "path": "evidence/snapshots/T3/trials.csv",
+    "source": "snapshots/T3/trials.csv",
+    "sha256": "fac8746d662b779fddc9b2b54ec0c331e3a415ae77580cc09b97ef86f476f468"
+  },
+  {
+    "path": "evidence/snapshots/T3_counted/trials.csv",
+    "source": "snapshots/T3_counted/trials.csv",
+    "sha256": "c3f293ecded499de348533d75bbb6d88dde3b7601971bbe83b5cb40664a0592f"
+  },
+  {
+    "path": "evidence/snapshots/T3_growth/growth.csv",
+    "source": "snapshots/T3_growth/growth.csv",
+    "sha256": "b492ff417dee20d739b9a3806dca48fd58b9956c25e4247c1ac389b367a3797c"
+  },
+  {
+    "path": "evidence/snapshots/T5/publication.csv",
+    "source": "snapshots/T5/publication.csv",
+    "sha256": "407132c7e1d36da07b2617103b509bebd811dcee1428585224b3e39c8009247d"
+  },
+  {
+    "path": "evidence/snapshots/T5_injected/publication.csv",
+    "source": "snapshots/T5_injected/publication.csv",
+    "sha256": "c531dbe0b69b0f1563362017c4e4816388969061d10c24d2276da8cdd748b2f2"
+  },
+  {
+    "path": "evidence/logs/repro_T7_public.log",
+    "source": "logs/repro_T7_public.log",
+    "sha256": "5433f7249c9c9b82c4a5b1daf8dab626a18dfc86460f69943667f6fbb24c8ce8"
+  }
+]

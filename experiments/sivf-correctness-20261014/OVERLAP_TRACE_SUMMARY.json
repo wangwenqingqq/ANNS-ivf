@@ -1,0 +1,69 @@
+{
+  "scope": "diagnostic-only CUPTI kernel intervals; no latency or throughput claim",
+  "search_kernels": 10,
+  "search_insert_overlap_count": 10,
+  "search_delete_overlap_count": 7,
+  "triple_overlap_count": 6,
+  "trials": [
+    {
+      "trial": 0,
+      "search_insert_overlap": true,
+      "search_delete_overlap": false,
+      "triple_overlap": false
+    },
+    {
+      "trial": 1,
+      "search_insert_overlap": true,
+      "search_delete_overlap": true,
+      "triple_overlap": true
+    },
+    {
+      "trial": 2,
+      "search_insert_overlap": true,
+      "search_delete_overlap": false,
+      "triple_overlap": false
+    },
+    {
+      "trial": 3,
+      "search_insert_overlap": true,
+      "search_delete_overlap": true,
+      "triple_overlap": true
+    },
+    {
+      "trial": 4,
+      "search_insert_overlap": true,
+      "search_delete_overlap": true,
+      "triple_overlap": true
+    },
+    {
+      "trial": 5,
+      "search_insert_overlap": true,
+      "search_delete_overlap": true,
+      "triple_overlap": true
+    },
+    {
+      "trial": 6,
+      "search_insert_overlap": true,
+      "search_delete_overlap": false,
+      "triple_overlap": false
+    },
+    {
+      "trial": 7,
+      "search_insert_overlap": true,
+      "search_delete_overlap": true,
+      "triple_overlap": true
+    },
+    {
+      "trial": 8,
+      "search_insert_overlap": true,
+      "search_delete_overlap": true,
+      "triple_overlap": false
+    },
+    {
+      "trial": 9,
+      "search_insert_overlap": true,
+      "search_delete_overlap": true,
+      "triple_overlap": true
+    }
+  ]
+}
