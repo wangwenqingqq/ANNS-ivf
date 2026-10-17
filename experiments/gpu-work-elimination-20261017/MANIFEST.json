@@ -1,0 +1,212 @@
+{
+  "experiment": "ivf_20261017_query_mask_factorization_cpu_v1",
+  "parent": "f198d6b8e1d71a01bc04f94f359695dc0081a5bb",
+  "scope": "CPU exact-integer opportunity screen; negative result; no native GPU execution, timing, traffic, quality or VRAM claim",
+  "files": {
+    ".gitignore": {
+      "bytes": 29,
+      "sha256": "9220c9fd96133323d639426cd7644af2edcc1670d305efb8f0aae0320d3cab46"
+    },
+    "BOTTLENECK.md": {
+      "bytes": 7857,
+      "sha256": "0795de2f517ded64d5ab4a0017af1a6e467e480c090263c69ba17923807cd2d1"
+    },
+    "MECHANISM.md": {
+      "bytes": 6773,
+      "sha256": "a2df4d9709696023a9cd50b1345dc4e3ff05e3cd7b0505aa93cb646f0c6db580"
+    },
+    "DECISION.md": {
+      "bytes": 5823,
+      "sha256": "e8086690370592d66ce83e91f5bd036e41838ccd60dc233c041b9cb816f10ae3"
+    },
+    "probe.py": {
+      "bytes": 14531,
+      "sha256": "ca0fc5d7e46e4dc4a4b6deae9c2398d58b04bde5d4b2382f82d5584c8b54e63d"
+    },
+    "prepare_glove.py": {
+      "bytes": 1813,
+      "sha256": "1ae02fa33d1a523edfdc5977aa2eadf58940de4acfcec3c95cf5b8e6b2e4e063"
+    },
+    "test_probe.py": {
+      "bytes": 3278,
+      "sha256": "a1d827a4649e5f03591a96591aa43175789b86dfa69853c3e21942aa8e135e7a"
+    },
+    "RESULTS.json": {
+      "bytes": 37008,
+      "sha256": "9f30a93a6615c54895eb5c39624a2ca5bf1faa46cfa8d0159dc4a9a21ab3fde3"
+    },
+    "GROUPS.jsonl.gz": {
+      "bytes": 485282,
+      "sha256": "dea07998ef304367c87323f2e05e3f2482b33e189424cfa88af11fc2a6695524"
+    }
+  },
+  "upstream": {
+    "repository": "https://github.com/Stardust-SJF/cuvs_rabitq",
+    "commit": "33d1de70fba2bd86390ea5915c62917c3a85c2ff",
+    "verification": "Every cached source file matches the pinned Git tree blob ID; source cache is not redistributed",
+    "files": [
+      {
+        "path": "cpp/include/cuvs/neighbors/ivf_rabitq.hpp",
+        "git_blob_sha1": "f4f6df16d0201c2368282c7498dd4c355a1159d9",
+        "sha256": "b8d8b38c464456aba69fa91605a2951342ae82589ff239be057695106eb790e2"
+      },
+      {
+        "path": "cpp/src/neighbors/ivf_rabitq.cu",
+        "git_blob_sha1": "d67427acb570bc0320629cf435fe73c3bc647ab1",
+        "sha256": "2bc34bb4c70766c5134a3c67d350470666592e98d44e84b46ca9aac98fa7052e"
+      },
+      {
+        "path": "cpp/src/neighbors/ivf_rabitq/gpu_index/quantizer_gpu.cu",
+        "git_blob_sha1": "20257a44b886f23d9e75b76f5b0e96f03fffc00b",
+        "sha256": "b99c0c286841695c2fc5390f5d9da5d86d629f489af85e463a3ac8ebb2135735"
+      },
+      {
+        "path": "cpp/src/neighbors/ivf_rabitq/gpu_index/initializer_gpu.cu",
+        "git_blob_sha1": "6755bfc3deb48c181e7dfcc05619fa00bb5b29f3",
+        "sha256": "1ff1fe4f8af45e5a06876813bb79fafe21c35f2297b2643ccd2ab0f3e9083718"
+      },
+      {
+        "path": "cpp/src/neighbors/ivf_rabitq/gpu_index/fht_cuda.cuh",
+        "git_blob_sha1": "e2103850e9c94a5b3e6d1a8653ea22f75c94a081",
+        "sha256": "3505cf7f553138cf060a92ca8be445810a3a8fbc83b5675f5fcb849fe05e662c"
+      },
+      {
+        "path": "cpp/src/neighbors/ivf_rabitq/gpu_index/quantizer_gpu.cuh",
+        "git_blob_sha1": "806a543e6d5bd53c91d54ad7539b13e68882423d",
+        "sha256": "dba7470b96766f86a2b57ae1ed914661f6c951a12597ae16f0fe5b9ef1422289"
+      },
+      {
+        "path": "cpp/src/neighbors/ivf_rabitq/gpu_index/searcher_gpu.cuh",
+        "git_blob_sha1": "9bc9650ac86234a1f17216b901ca17e58c4088f9",
+        "sha256": "e7245ac695782a3bd774d86548a1656a41f95ebe73699e27dcce4a22ca1304d8"
+      },
+      {
+        "path": "cpp/src/neighbors/ivf_rabitq/gpu_index/rotator_gpu.cuh",
+        "git_blob_sha1": "45c4a8ab2363347459b081a6265f695c61ef42a3",
+        "sha256": "d91064393665f9f6bb8895f64b2e869f6b2651287ff61901eb53ba4e8feb1ad2"
+      },
+      {
+        "path": "cpp/src/neighbors/ivf_rabitq/gpu_index/ivf_gpu.cuh",
+        "git_blob_sha1": "fb1404316e9774ec1ee01c2bc7c159ae784e17d8",
+        "sha256": "f89964444eb47a24ede176ba93413f6a6b2eb33bf50f595aa021899dc3e26fb4"
+      },
+      {
+        "path": "cpp/src/neighbors/ivf_rabitq/gpu_index/searcher_gpu.cu",
+        "git_blob_sha1": "bcefd2aa2e8eabcac7b42f5c03cc659ca5f80339",
+        "sha256": "c64bbcc6173bbb9f7c9c348b5fa97e0ae670be6d9a113cb69c20d9995a33ab34"
+      },
+      {
+        "path": "cpp/src/neighbors/ivf_rabitq/gpu_index/searcher_gpu_shared_mem_opt.cu",
+        "git_blob_sha1": "9deb0daa2efb91ebfcd082c0e1a70b9248292486",
+        "sha256": "3065e54702fa3c58dbda3e4714944e6a78dfa19833c41e7f09393436063fe900"
+      },
+      {
+        "path": "cpp/src/neighbors/ivf_rabitq/gpu_index/initializer_gpu.cuh",
+        "git_blob_sha1": "064014881419ffaef76dc42ff83a11b10f5febdb",
+        "sha256": "b6b17131bac55478cb2fee63dd8bff4ed4b14e53e69f67a5a79177f808616bcc"
+      },
+      {
+        "path": "cpp/src/neighbors/ivf_rabitq/gpu_index/searcher_gpu_quantize_query.cu",
+        "git_blob_sha1": "3ac1490ddf521ca236ebbd66438d3b2276c89ea6",
+        "sha256": "50034257a36c8ae8ff7d7260c493418c630ab68721b5d7fdf97b53fbd37c8a2e"
+      },
+      {
+        "path": "cpp/src/neighbors/ivf_rabitq/gpu_index/rotator_gpu.cu",
+        "git_blob_sha1": "16a9173dfe7c125ab8ffcd42b5231daefdcc9d84",
+        "sha256": "3f0d5ade1411b2b69a68a1bf7779e9a63f0ce6243b879985dbd99b016b284501"
+      },
+      {
+        "path": "cpp/src/neighbors/ivf_rabitq/gpu_index/searcher_gpu_common.cuh",
+        "git_blob_sha1": "79fccf7966a5a4752a8d1a852c6078b6d07e3f14",
+        "sha256": "673335fed420fc2f4f041a60897470304d3e7e8ec240d01f15f3af37a5e959c6"
+      },
+      {
+        "path": "cpp/src/neighbors/ivf_rabitq/gpu_index/ivf_gpu.cu",
+        "git_blob_sha1": "e2c51248ddd99b248fcc09a65414ec1e659bd1b7",
+        "sha256": "8216d71449b34a1be17ee7f31b660caf2c2c4a058ab4efc613cdb9082aa1742f"
+      }
+    ]
+  },
+  "inputs": {
+    "previous_stage": {
+      "commit": "f198d6b8e1d71a01bc04f94f359695dc0081a5bb",
+      "directory": "experiments/candidate-frontier-20261015",
+      "input_manifest_sha256": "9892707f1004cf77bd92782386a2a015c2b5440c3406a90f556e362616d66ab0",
+      "reuse_check": "All nine input-array hashes, three centers and three assignments match the prior committed receipt",
+      "rotation_indexes": {
+        "SIFT": "c2aa5cbf8a2643f89779fee1f5e17cb6063dd9d6c89b214c397d87a224b0d51c",
+        "GIST": "5f557cfa05e2b6a39285ae0297f8f5ad3bae7719039974e47e3fdc73ba1eda80",
+        "Gaussian": "5ce07bcc399ca1e5d70e0b601b349e9efab8f5926cdea45309b1eaa65a8fe022"
+      }
+    },
+    "large_sift_public_prefix": {
+      "url": "https://huggingface.co/datasets/hhy3/ann-datasets/resolve/0bc1ed67fc2626bc6f110c8794a70572681b7395/sift1M/sift_base.fvecs",
+      "prefix_bytes": 135266304,
+      "raw_sha256": "6085c9d3f1530b5c7a31afe7c1421f85b96c91147a8a2e2a275462f93470e050",
+      "decoded_sha256": "109abe49579c88a18e845fa4ef0ecd2e3e9a526e8caf4aa02e49b70a835db0b5",
+      "matches_primary": true
+    },
+    "glove_public_archive_and_arrays": {
+      "url": "https://ann-benchmarks.com/glove-100-angular.hdf5",
+      "archive_bytes": 485413888,
+      "archive_sha256": "544af1d5e84e112cd4749571dcfd8ca109818a572f850af75a3a09e093a953c4",
+      "normalization": "FP64 L2 normalization cast FP32; 100D padded to128",
+      "arrays": {
+        "x": {
+          "shape": [
+            32768,
+            128
+          ],
+          "sha256": "3401d99610531352d59a2d70d2ae46c4eeb39463ecb4637381c83dd904897679"
+        },
+        "train": {
+          "shape": [
+            8192,
+            128
+          ],
+          "sha256": "f184f01b48cf28db0708f0f0b8a9af7e70d55578b17c040c5b0580a8496b45cf"
+        },
+        "q": {
+          "shape": [
+            96,
+            128
+          ],
+          "sha256": "b8ea5f9bc4586be31b946f26b98e07f9c54d1931f649af354c307994e6b8d48a"
+        }
+      }
+    }
+  },
+  "raw_runs": {
+    "storage": "Preserved outside Git in experiment runs/primary_01 and runs/primary_02; receipt files are content-addressed here",
+    "comparison": {
+      "passed": true,
+      "change": "Live CPU name discovery only; numerical logic and frozen mechanism unchanged",
+      "primary_01": {
+        "source_sha256": "4d2ef7011950946674a250fa9c9e38c8c651367f8cff6f14ef1d8308c3c85681",
+        "result_sha256": "037010520011d9f3ba5c3a81494b9e3b85f1771fe403334af76a2b4a290a617a",
+        "stdout_sha256": "54769193b34c3e06237aec5459c91fe7bce5037a6f11986f28be9822ae154b24",
+        "cpu_label": "Intel Xeon Platinum8575C"
+      },
+      "primary_02": {
+        "source_sha256": "ca0fc5d7e46e4dc4a4b6deae9c2398d58b04bde5d4b2382f82d5584c8b54e63d",
+        "result_sha256": "9f30a93a6615c54895eb5c39624a2ca5bf1faa46cfa8d0159dc4a9a21ab3fde3",
+        "stdout_sha256": "54769193b34c3e06237aec5459c91fe7bce5037a6f11986f28be9822ae154b24",
+        "cpu_label": "INTEL(R) XEON(R) PLATINUM 8575C"
+      },
+      "groups_byte_identical": true,
+      "group_rows": 42339,
+      "groups_sha256": "6b5e73f51f6c2b95f03c9a6ee55baf539d71e41dee36bae668def74f6b75bdd1"
+    },
+    "primary_02_command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 python3 runs/primary_02/probe.py --previous \"$PREVIOUS_FRONTIER_DIR\" --large-sift \"$SIFT_BASE_FVECS\" --glove inputs/GloVe100.npz --out runs/primary_02/out",
+    "preregistered_mechanism_sha256": "a2df4d9709696023a9cd50b1345dc4e3ff05e3cd7b0505aa93cb646f0c6db580",
+    "initial_run_preserved": true,
+    "metadata_fix": "CPU name discovery only; source-hash and CPU-label fields differ; all other results and uncompressed group rows are identical"
+  },
+  "validation": {
+    "integer_output_comparisons": 5701602,
+    "primitive_cases": 144,
+    "regression_tests": 6,
+    "gpu_gates": "Not executed; no GPU accessed"
+  },
+  "exclusions": "No raw embeddings, archives, model binaries, wheels, private host paths, source caches or stdout logs are shipped. Manifest excludes its own hash."
+}
