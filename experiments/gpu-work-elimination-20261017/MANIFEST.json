@@ -8,20 +8,20 @@
       "sha256": "9220c9fd96133323d639426cd7644af2edcc1670d305efb8f0aae0320d3cab46"
     },
     "BOTTLENECK.md": {
-      "bytes": 7857,
-      "sha256": "0795de2f517ded64d5ab4a0017af1a6e467e480c090263c69ba17923807cd2d1"
+      "bytes": 8384,
+      "sha256": "b2c62f127e452f3e674b6345967014b015a649dd05897d9f98de430279b6a477"
     },
     "MECHANISM.md": {
       "bytes": 6773,
       "sha256": "a2df4d9709696023a9cd50b1345dc4e3ff05e3cd7b0505aa93cb646f0c6db580"
     },
     "DECISION.md": {
-      "bytes": 5823,
-      "sha256": "e8086690370592d66ce83e91f5bd036e41838ccd60dc233c041b9cb816f10ae3"
+      "bytes": 6060,
+      "sha256": "f68a76785aae099003f4017205b245b2e47a367570259927af3ebafc59faa8eb"
     },
     "probe.py": {
-      "bytes": 14531,
-      "sha256": "ca0fc5d7e46e4dc4a4b6deae9c2398d58b04bde5d4b2382f82d5584c8b54e63d"
+      "bytes": 14827,
+      "sha256": "d8517a23acfa6b3c31ad9b07c5690820789b8d9432e7fe30bbd0bd7c2a7addf6"
     },
     "prepare_glove.py": {
       "bytes": 1813,
@@ -33,16 +33,22 @@
     },
     "RESULTS.json": {
       "bytes": 37008,
-      "sha256": "9f30a93a6615c54895eb5c39624a2ca5bf1faa46cfa8d0159dc4a9a21ab3fde3"
+      "sha256": "ef1fad4b6d6eec5a745bdf6e05e02e2abe8ac5796cd33ad879c87b517436adf2"
     },
     "GROUPS.jsonl.gz": {
       "bytes": 485282,
       "sha256": "dea07998ef304367c87323f2e05e3f2482b33e189424cfa88af11fc2a6695524"
+    },
+    "LICENSE-APACHE-2.0.txt": {
+      "bytes": 11348,
+      "sha256": "756005f963846334943e8bfc08ef98cd254257d8467ac7a7ffd42a1be262f442"
     }
   },
   "upstream": {
     "repository": "https://github.com/Stardust-SJF/cuvs_rabitq",
     "commit": "33d1de70fba2bd86390ea5915c62917c3a85c2ff",
+    "license_git_blob_sha1": "1a89b9054d669db9cfb06aa2ce187b37f5d50eeb",
+    "license_file": "LICENSE-APACHE-2.0.txt",
     "verification": "Every cached source file matches the pinned Git tree blob ID; source cache is not redistributed",
     "files": [
       {
@@ -177,7 +183,7 @@
     }
   },
   "raw_runs": {
-    "storage": "Preserved outside Git in experiment runs/primary_01 and runs/primary_02; receipt files are content-addressed here",
+    "storage": "Preserved outside Git in experiment runs/primary_01, runs/primary_02 and runs/primary_03; receipt files are content-addressed here",
     "comparison": {
       "passed": true,
       "change": "Live CPU name discovery only; numerical logic and frozen mechanism unchanged",
@@ -197,8 +203,20 @@
       "group_rows": 42339,
       "groups_sha256": "6b5e73f51f6c2b95f03c9a6ee55baf539d71e41dee36bae668def74f6b75bdd1"
     },
-    "primary_02_command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 python3 runs/primary_02/probe.py --previous \"$PREVIOUS_FRONTIER_DIR\" --large-sift \"$SIFT_BASE_FVECS\" --glove inputs/GloVe100.npz --out runs/primary_02/out",
+    "primary_03_command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 python3 runs/primary_03/probe.py --previous \"$PREVIOUS_FRONTIER_DIR\" --large-sift \"$SIFT_BASE_FVECS\" --glove inputs/GloVe100.npz --out runs/primary_03/out",
     "preregistered_mechanism_sha256": "a2df4d9709696023a9cd50b1345dc4e3ff05e3cd7b0505aa93cb646f0c6db580",
+    "license_notice_replay": {
+      "passed": true,
+      "change": "Upstream Apache-2.0 copyright/license and CPU adaptation notice comments only; numerical AST unchanged",
+      "result_fields_excluding_source_sha256_identical": true,
+      "groups_byte_identical": true,
+      "groups_sha256": "6b5e73f51f6c2b95f03c9a6ee55baf539d71e41dee36bae668def74f6b75bdd1",
+      "primary_03": {
+        "source_sha256": "d8517a23acfa6b3c31ad9b07c5690820789b8d9432e7fe30bbd0bd7c2a7addf6",
+        "result_sha256": "ef1fad4b6d6eec5a745bdf6e05e02e2abe8ac5796cd33ad879c87b517436adf2",
+        "stdout_sha256": "54769193b34c3e06237aec5459c91fe7bce5037a6f11986f28be9822ae154b24"
+      }
+    },
     "initial_run_preserved": true,
     "metadata_fix": "CPU name discovery only; source-hash and CPU-label fields differ; all other results and uncompressed group rows are identical"
   },

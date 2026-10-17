@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+# SPDX-FileCopyrightText: Copyright (c) 2025-2026, NVIDIA CORPORATION.
+# SPDX-License-Identifier: Apache-2.0
+# Calibration/query quantization adapted from cuvs_rabitq at 33d1de70fba2bd86390ea5915c62917c3a85c2ff.
+# Modified for CPU NumPy/heapq and PCG64 samples; exact-work probes are added here.
 """CPU exact-integer work probe; never a GPU benchmark or native index reproduction."""
 import os
 for key in ("OPENBLAS_NUM_THREADS", "OMP_NUM_THREADS", "MKL_NUM_THREADS", "VECLIB_MAXIMUM_THREADS"):

@@ -9,6 +9,13 @@ matched-quality QPS/P99/VRAM gates remain **unknown**, not completed.
 ## Comparator and active paths
 
 GPU reference: [cuvs_rabitq at 33d1de70](https://github.com/Stardust-SJF/cuvs_rabitq/tree/33d1de70fba2bd86390ea5915c62917c3a85c2ff).
+The CPU calibration/query-quantization adaptation in `probe.py` retains the
+upstream Apache-2.0 notice; the full license is included alongside it.
+Original attribution is retained: `quantizer_gpu.cu` states
+"Created by Stardust on 3/10/25"; `searcher_gpu_quantize_query.cu` states
+"Created by Stardust on 4/14/25" (both under `cpp/src/neighbors/ivf_rabitq/gpu_index/`
+at the pinned commit). The adaptation uses CPU NumPy/heapq and PCG64 sampling
+instead of the CUDA/RAFT implementation; these are not native-GPU parity claims.
 The following are source-level facts; no kernel was built or profiled here.
 
 | Work / source location | What is already eliminated | What remains / measurement needed |

@@ -93,3 +93,7 @@ hardcoded CPU-label metadata with live CPU discovery; it does not change the
 mechanism, data, score arithmetic or decision rule. The comparison passes: all42,339 group rows are byte-identical, and all result
 fields except the declared source hash and CPU-label metadata are identical.
 Both raw run hashes are retained in MANIFEST.json.
+
+A third run retains the upstream Apache-2.0 license and attribution notices in
+the CPU adaptation. Its numerical AST is unchanged. The full matrix reproduces with only the
+declared source-hash change; all group rows are byte-identical.
